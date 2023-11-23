@@ -121,7 +121,7 @@
       class="kanji-option"
       @click.prevent="setQuiz('UpcomingKQuiz')"
     >
-      Next Kanji Quiz
+      Today Kanji Quiz
     </button>
     <button
       type="button"
