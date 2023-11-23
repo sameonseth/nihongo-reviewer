@@ -167,6 +167,46 @@ export default {
         this.quiz = N5VocabularyQuizzes.N5L10VQuiz;
         this.typeOfQuiz = "vocabulary";
       }
+      else if (selectedQuiz==="N5L11V") {
+        this.quiz = N5VocabularyQuizzes.N5L11VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L12V") {
+        this.quiz = N5VocabularyQuizzes.N5L12VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L13V") {
+        this.quiz = N5VocabularyQuizzes.N5L13VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L14V") {
+        this.quiz = N5VocabularyQuizzes.N5L14VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L15V") {
+        this.quiz = N5VocabularyQuizzes.N5L15VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L16V") {
+        this.quiz = N5VocabularyQuizzes.N5L16VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L17V") {
+        this.quiz = N5VocabularyQuizzes.N5L17VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L18V") {
+        this.quiz = N5VocabularyQuizzes.N5L18VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L19V") {
+        this.quiz = N5VocabularyQuizzes.N5L19VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L20V") {
+        this.quiz = N5VocabularyQuizzes.N5L20VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
       else if (selectedQuiz==="N5L21V") {
         this.quiz = N5VocabularyQuizzes.N5L21VQuiz;
         this.typeOfQuiz = "vocabulary";
@@ -189,10 +229,6 @@ export default {
       }
       else if (selectedQuiz==="UpcomingKQuiz") {
         this.quiz = N4KanjiQuizzes.UpcomingKQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="TomorrowQuiz") {
-        this.quiz = N4KanjiQuizzes.TomorrowQuiz;
         this.typeOfQuiz = "kanji";
       }
       this.totalNumberOfQuestions = this.quiz.length;

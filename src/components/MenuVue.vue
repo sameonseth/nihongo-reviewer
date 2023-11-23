@@ -84,6 +84,76 @@
     <button
       type="button"
       class="vocabulary-option"
+      @click.prevent="setQuiz('N5L11V')"
+    >
+      N5 L11 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L12V')"
+    >
+      N5 L12 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L13V')"
+    >
+      N5 L13 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L14V')"
+    >
+      N5 L14 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L15V')"
+    >
+      N5 L15 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L16V')"
+    >
+      N5 L16 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L17V')"
+    >
+      N5 L17 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L18V')"
+    >
+      N5 L18 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L19V')"
+    >
+      N5 L19 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
+      @click.prevent="setQuiz('N5L20V')"
+    >
+      N5 L20 Vocabulary
+    </button>
+    <button
+      type="button"
+      class="vocabulary-option"
       @click.prevent="setQuiz('N5L21V')"
     >
       N5 L21 Vocabulary
@@ -121,14 +191,7 @@
       class="kanji-option"
       @click.prevent="setQuiz('UpcomingKQuiz')"
     >
-      Today Kanji Quiz
-    </button>
-    <button
-      type="button"
-      class="kanji-option"
-      @click.prevent="setQuiz('TomorrowQuiz')"
-    >
-      Tomorrow Kanji Quiz
+      Next Kanji Quiz
     </button>
 </template>
 

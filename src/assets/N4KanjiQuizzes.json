@@ -41,9 +41,7 @@
         { "question": "親切な", "answer": "しんせつな", "english_answer": "kind" },
         { "question": "元気な", "answer": "げんきな", "english_answer": "fine, active" },
         { "question": "元日", "answer": "がんじつ", "english_answer": "New Year's Day" },
-        { "question": "紀元前", "answer": "きげんぜん", "english_answer": "before Christ" }
-    ],
-    "UpcomingKQuiz" : [
+        { "question": "紀元前", "answer": "きげんぜん", "english_answer": "before Christ" },
         { "question": "好きな", "answer": "すきな", "english_answer": "favorite" },
         { "question": "好意", "answer": "こうい", "english_answer": "affection" },
         { "question": "好物", "answer": "こうぶつ", "english_answer": "favorite dish" },
@@ -64,7 +62,7 @@
         { "question": "悪い", "answer": "わるい", "english_answer": "bad" },
         { "question": "悪人", "answer": "あくにん", "english_answer": "bad person" }
     ],
-    "TomorrowQuiz": [
+    "UpcomingKQuiz": [
         { "question": "正しい", "answer": "ただしい", "english_answer": "correct, right" },
         { "question": "正月", "answer": "しょうがつ", "english_answer": "the New Year" },
         { "question": "正門", "answer": "せいもん", "english_answer": "main gate" },
