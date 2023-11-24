@@ -227,6 +227,14 @@ export default {
         this.quiz = N5VocabularyQuizzes.N5L25VQuiz;
         this.typeOfQuiz = "vocabulary";
       }
+      else if (selectedQuiz==="N4L3KQuiz") {
+        this.quiz = N4KanjiQuizzes.N4L3KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="N4L4KQuiz") {
+        this.quiz = N4KanjiQuizzes.N4L4KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
       else if (selectedQuiz==="NextKanjiQuiz") {
         this.quiz = N4KanjiQuizzes.NextKanjiQuiz;
         this.typeOfQuiz = "kanji";
