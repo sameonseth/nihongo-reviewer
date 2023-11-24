@@ -1,6 +1,6 @@
 {
     "Previous" : [
-        { "question": "強い", "answer": "つよい", "english_answer": "strong", "kanji-answer": "slfkjsalkdf" },
+        { "question": "強い", "answer": "つよい", "english_answer": "strong" },
         { "question": "勉強する", "answer": "べんきょうする", "english_answer": "to study" },
         { "question": "強風", "answer": "ききょうふう", "english_answer": "big wind" },
         { "question": "弱い", "answer": "よわい", "english_answer": "weak" },
@@ -14,7 +14,9 @@
         { "question": "太陽", "answer": "たいよう", "english_answer": "sun" },
         { "question": "細い", "answer": "ほそい", "english_answer": "slender" },
         { "question": "細かい", "answer": "こまかい", "english_answer": "fine" },
-        { "question": "細工", "answer": "さいく", "english_answer": "craftmanship" },
+        { "question": "細工", "answer": "さいく", "english_answer": "craftmanship" }
+    ],
+    "N4L3KQuiz" : [
         { "question": "特に", "answer": "とくに", "english_answer": "especially" },
         { "question": "特急", "answer": "とっきゅう", "english_answer": "limited express" },
         { "question": "別れる", "answer": "わかれる", "english_answer": "separate" },
@@ -48,7 +50,9 @@
         { "question": "急に", "answer": "きゅうに", "english_answer": "suddenly" },
         { "question": "特急", "answer": "とっきゅう", "english_answer": "limited express" },
         { "question": "急ぐ", "answer": "いそぐ", "english_answer": "hurry" },
-        { "question": "急用", "answer": "きゅうよう", "english_answer": "urgent business" },
+        { "question": "急用", "answer": "きゅうよう", "english_answer": "urgent business" }
+    ],
+    "N4L4KQuiz" : [
         { "question": "低い", "answer": "ひくい", "english_answer": "low" },
         { "question": "低下する", "answer": "ていかする", "english_answer": "to fall" },
         { "question": "低気圧", "answer": "ていきあつ", "english_answer": "low pressure" },
@@ -60,9 +64,7 @@
         { "question": "良い", "answer": "よい", "english_answer": "good" },
         { "question": "良心", "answer": "りょうしん", "english_answer": "conscience" },
         { "question": "悪い", "answer": "わるい", "english_answer": "bad" },
-        { "question": "悪人", "answer": "あくにん", "english_answer": "bad person" }
-    ],
-    "UpcomingKQuiz": [
+        { "question": "悪人", "answer": "あくにん", "english_answer": "bad person" },
         { "question": "正しい", "answer": "ただしい", "english_answer": "correct, right" },
         { "question": "正月", "answer": "しょうがつ", "english_answer": "the New Year" },
         { "question": "正門", "answer": "せいもん", "english_answer": "main gate" },
@@ -78,7 +80,9 @@
         { "question": "青空", "answer": "あおぞら", "english_answer": "blue sky" },
         { "question": "青春", "answer": "せいしゅん", "english_answer": "youth" },
         { "question": "黒い", "answer": "くろい", "english_answer": "black" },
-        { "question": "真っ黒", "answer": "まっくろ", "english_answer": "pitch black" },
+        { "question": "真っ黒", "answer": "まっくろ", "english_answer": "pitch black" }
+    ],
+    "N4L5KQuiz" : [
         { "question": "映す", "answer": "うつす", "english_answer": "to reflect" },
         { "question": "映画", "answer": "えいが", "english_answer": "movie" },
         { "question": "映画館", "answer": "えいがかん", "english_answer": "movie theater" },
@@ -86,7 +90,7 @@
         { "question": "画家", "answer": "がか", "english_answer": "painter" },
         { "question": "日本画", "answer": "にほんが", "english_answer": "Japanese painting" }
     ],
-    "Next" : [
+    "NextKanjiQuiz": [
         { "question": "音", "answer": "おと", "english_answer": "sound" },
         { "question": "発音", "answer": "はつおん", "english_answer": "pronunciation" },
         { "question": "高音", "answer": "こうおん", "english_answer": "high note" },
@@ -105,7 +109,9 @@
         { "question": "旅", "answer": "たび", "english_answer": "trip" },
         { "question": "世話をする", "answer": "せわをする", "english_answer": "to take care of" },
         { "question": "世の中", "answer": "よのなか", "english_answer": "world, society" },
-        { "question": "２１世紀", "answer": "２１せいき", "english_answer": "21st century" },
+        { "question": "２１世紀", "answer": "２１せいき", "english_answer": "21st century" }
+    ],
+    "Next" : [
         { "question": "世界", "answer": "せかい", "english_answer": "world" },
         { "question": "政界", "answer": "せいかい", "english_answer": "political world" },
         { "question": "仕事", "answer": "しごと", "english_answer": "job" },

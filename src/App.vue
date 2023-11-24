@@ -227,8 +227,8 @@ export default {
         this.quiz = N5VocabularyQuizzes.N5L25VQuiz;
         this.typeOfQuiz = "vocabulary";
       }
-      else if (selectedQuiz==="UpcomingKQuiz") {
-        this.quiz = N4KanjiQuizzes.UpcomingKQuiz;
+      else if (selectedQuiz==="NextKanjiQuiz") {
+        this.quiz = N4KanjiQuizzes.NextKanjiQuiz;
         this.typeOfQuiz = "kanji";
       }
       this.totalNumberOfQuestions = this.quiz.length;
