@@ -228,8 +228,8 @@ body {
   width: 100%;
 }
 
-.view-answers-button {
-  background-color: #6171ff;
+.blue-button {
+  background-color: #6372ff;
   border: 0;
   font-size: 22px;
   color: #fff;
@@ -238,13 +238,32 @@ body {
   display: block;
 }
 
-.view-answers-button:active,
-.view-answers-button:focus,
-.view-answers-button:hover {
+.blue-button:active,
+.blue-button:focus,
+.blue-button:hover {
   border: 0;
   outline: 0;
   cursor: pointer;
   background-color: rgb(17, 46, 179);
+}
+
+.green-button {
+  background-color: #72ff63;
+  border: 0;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 25px;
+  margin: 10px auto;
+  display: block;
+}
+
+.green-button:active,
+.green-button:focus,
+.green-button:hover {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: rgb(46, 179, 17);
 }
 
 .vocabulary-option {

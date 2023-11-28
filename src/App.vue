@@ -35,7 +35,7 @@
     <button
       v-if="typeOfQuiz === 'oral-script' && numberOfAnsweredQuestions < totalNumberOfQuestions"
       type="button"
-      class="view-answers-button"
+      class="blue-button"
       @click.prevent="next"
     >
       Next Question
@@ -52,10 +52,17 @@
       <button
         v-if="isViewingAnswers === 0 && typeOfQuiz !== 'oral-script'"
         type="button"
-        class="view-answers-button"
+        class="blue-button"
         @click.prevent="viewAnswers"
       >
         View Answers
+      </button>
+      <button
+        type="button"
+        class="green-button"
+        @click.prevent="retake"
+      >
+        Retake Quiz
       </button>
       <button
         type="button"
@@ -119,6 +126,14 @@ export default {
     },
     next(){
       this.numberOfAnsweredQuestions++;
+    },
+    retake(){
+      this.numberOfAnsweredQuestions = 0;
+      this.numberOfCorrectAnswers = 0;
+      this.questionsIndexes = [];
+      this.randomNum = 0;
+      this.userAnswerArray = [];
+      this.userEnglishAnswerArray = [];
     },
     reset() {
       this.isQuizSelected = 0;
