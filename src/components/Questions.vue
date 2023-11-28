@@ -21,6 +21,7 @@
       >
         <div class="question">{{ quizItem.question }}</div>
         <input
+          v-if="typeOfQuiz !== 'oral-script'"
           class="answer-input"
           placeholder="Your Hiragana Answer"
           @change="$event => evaluateHiraganaAnswer($event.target.value, quizItem.answer)"

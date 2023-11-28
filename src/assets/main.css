@@ -167,6 +167,25 @@ body {
   position: absolute;
 }
 
+.script-option {
+  background-color: #8fc3ff;
+  border: 0;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 25px;
+  margin: 10px auto;
+  display: block;
+}
+
+.script-option:active,
+.script-option:focus,
+.script-option:hover {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: #3d8eeb;
+}
+
 .kanji-option {
   background-color: #cf8fff;
   border: 0;

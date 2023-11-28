@@ -208,6 +208,13 @@
       >
         Next Kanji Quiz
       </button>
+      <button
+        type="button"
+        class="script-option"
+        @click.prevent="setQuiz('Oral2Questions')"
+      >
+        Oral 2 Script Questions
+      </button>
     </div>
 </template>
 

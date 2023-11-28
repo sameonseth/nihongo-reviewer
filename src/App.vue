@@ -18,6 +18,7 @@
         />
         <div v-else-if="numberOfAnsweredQuestions === totalNumberOfQuestions">
           <Result
+            v-if="typeOfQuiz !== 'oral-script'"
             :numberOfCorrectAnswers="numberOfCorrectAnswers"
             :totalNumberOfQuestions="totalNumberOfQuestions"
           />  
@@ -32,6 +33,14 @@
       </transition>
     </div>
     <button
+      v-if="typeOfQuiz === 'oral-script' && numberOfAnsweredQuestions < totalNumberOfQuestions"
+      type="button"
+      class="view-answers-button"
+      @click.prevent="next"
+    >
+      Next Question
+    </button>
+    <button
       v-if="numberOfAnsweredQuestions < totalNumberOfQuestions"
       type="button"
       class="red-button"
@@ -41,7 +50,7 @@
     </button>
     <div v-if="numberOfAnsweredQuestions === totalNumberOfQuestions">
       <button
-        v-if="isViewingAnswers === 0"
+        v-if="isViewingAnswers === 0 && typeOfQuiz !== 'oral-script'"
         type="button"
         class="view-answers-button"
         @click.prevent="viewAnswers"
@@ -62,6 +71,7 @@
 <script>
 import N4KanjiQuizzes from "./assets/N4KanjiQuizzes.json";
 import N5VocabularyQuizzes from "./assets/N5VocabularyQuizzes.json";
+import Oral2Questions from "./assets/Oral2Questions.json";
 import Answers from "./components/Answers.vue";
 import MenuVue from "./components/MenuVue.vue";
 import Questions from "./components/Questions.vue";
@@ -106,6 +116,9 @@ export default {
         randomizedQuestionSet[i] = questionSet[this.questionsIndexes[i]];
       }
       return randomizedQuestionSet;
+    },
+    next(){
+      this.numberOfAnsweredQuestions++;
     },
     reset() {
       this.isQuizSelected = 0;
@@ -238,6 +251,10 @@ export default {
       else if (selectedQuiz==="NextKanjiQuiz") {
         this.quiz = N4KanjiQuizzes.NextKanjiQuiz;
         this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="Oral2Questions") {
+        this.quiz = Oral2Questions.Questions;
+        this.typeOfQuiz = "oral-script";
       }
       this.totalNumberOfQuestions = this.quiz.length;
       this.quiz = this.randomizeQuestions(this.quiz);
