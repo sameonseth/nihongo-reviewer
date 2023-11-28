@@ -6,7 +6,8 @@
         v-for="(quizItem, loopIndex) in quiz"
         :key="quizItem.question"
       >
-        <div class="question">{{ quizItem.question }}</div>
+        <div class="question" v-if="isHardMode === 0">{{ quizItem.question }}</div>
+        <div class="question" v-else-if="isHardMode === 1">{{ quizItem.kanji_question }}</div>
         <div 
           v-if="userAnswerArray[loopIndex] === quizItem.answer"
           class="answer"
@@ -36,6 +37,6 @@
 
 <script>
 export default {
-  props: ["quiz", "typeOfQuiz", "userAnswerArray", "userEnglishAnswerArray"],
+  props: ["isHardMode", "quiz", "typeOfQuiz", "userAnswerArray", "userEnglishAnswerArray"],
 };
 </script>

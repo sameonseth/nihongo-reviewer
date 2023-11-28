@@ -8,6 +8,7 @@
       <transition name="fade" mode="out-in">
         <Questions
           v-if="numberOfAnsweredQuestions < totalNumberOfQuestions"
+          :isHardMode="isHardMode"
           :numberOfAnsweredQuestions="numberOfAnsweredQuestions"
           :quiz="quiz"
           :totalNumberOfQuestions="totalNumberOfQuestions"
@@ -24,6 +25,7 @@
           />  
           <Answers  
             v-if="isViewingAnswers === 1"
+            :isHardMode="isHardMode"
             :quiz="quiz"
             :typeOfQuiz="typeOfQuiz"
             :userAnswerArray="userAnswerArray"
@@ -32,23 +34,40 @@
         </div>
       </transition>
     </div>
-    <button
-      v-if="typeOfQuiz === 'oral-script' && numberOfAnsweredQuestions < totalNumberOfQuestions"
-      type="button"
-      class="blue-button"
-      @click.prevent="next"
-    >
-      Next Question
-    </button>
-    <button
-      v-if="numberOfAnsweredQuestions < totalNumberOfQuestions"
-      type="button"
-      class="red-button"
-      @click.prevent="skip"
-    >
-      Give Up
-    </button>
-    <div v-if="numberOfAnsweredQuestions === totalNumberOfQuestions">
+    <div v-if="numberOfAnsweredQuestions < totalNumberOfQuestions">
+      <button
+        v-if="typeOfQuiz === 'vocabulary' && isHardMode === 1"
+        type="button"
+        class="green-button"
+        @click.prevent="setToEasyMode"
+      >
+        Easy Mode
+      </button>
+      <button
+        v-if="typeOfQuiz === 'vocabulary' && isHardMode === 0"
+        type="button"
+        class="red-button"
+        @click.prevent="setToHardMode"
+      >
+        Hard Mode
+      </button>
+      <button
+        v-if="typeOfQuiz === 'oral-script'"
+        type="button"
+        class="blue-button"
+        @click.prevent="next"
+      >
+        Next Question
+      </button>
+      <button
+        type="button"
+        class="red-button"
+        @click.prevent="skip"
+      >
+        Give Up
+      </button>
+    </div>
+    <div v-else-if="numberOfAnsweredQuestions === totalNumberOfQuestions">
       <button
         v-if="isViewingAnswers === 0 && typeOfQuiz !== 'oral-script'"
         type="button"
@@ -95,6 +114,9 @@ export default {
 },
   data() {
     return {
+      easyModeQuiz: [],
+      hardModeQuiz: [],
+      isHardMode: 0,
       isQuizSelected: 0,
       isViewingAnswers: 0,
       numberOfAnsweredQuestions: 0,
@@ -129,14 +151,45 @@ export default {
       this.numberOfAnsweredQuestions++;
     },
     retake(){
+      this.isViewingAnswers = 0;
+      this.numberOfAnsweredQuestions = 0;
+      this.numberOfCorrectAnswers = 0;
+      this.userAnswerArray = [];
+      this.userEnglishAnswerArray = [];
+    },
+    setToEasyMode(){
+      this.isHardMode = 0;
       this.numberOfAnsweredQuestions = 0;
       this.numberOfCorrectAnswers = 0;
       this.questionsIndexes = [];
       this.randomNum = 0;
       this.userAnswerArray = [];
       this.userEnglishAnswerArray = [];
+      this.quiz = this.easyModeQuiz;
+      this.totalNumberOfQuestions = this.quiz.length;
+      this.quiz = this.randomizeQuestions(this.quiz);
+    },
+    setToHardMode(){
+      this.hardModeQuiz = [];
+      this.isHardMode = 1;
+      this.numberOfAnsweredQuestions = 0;
+      this.numberOfCorrectAnswers = 0;
+      this.questionsIndexes = [];
+      this.randomNum = 0;
+      this.userAnswerArray = [];
+      this.userEnglishAnswerArray = [];
+      this.easyModeQuiz.forEach(item => {
+        if (item.kanji_question !== ""){
+          this.hardModeQuiz.push(item);
+        }
+      });
+      this.totalNumberOfQuestions = this.hardModeQuiz.length;
+      this.quiz = this.randomizeQuestions(this.hardModeQuiz);
     },
     reset() {
+      this.easyModeQuiz = [];
+      this.hardModeQuiz = [];
+      this.isHardMode = 0;
       this.isQuizSelected = 0;
       this.isViewingAnswers = 0;
       this.numberOfAnsweredQuestions = 0;
@@ -145,6 +198,7 @@ export default {
       this.quiz = [];
       this.randomNum = 0;
       this.totalNumberOfQuestions = -1;
+      this.typeOfQuiz = "";
       this.userAnswerArray = [];
       this.userEnglishAnswerArray = [];
     },
@@ -273,6 +327,7 @@ export default {
         this.typeOfQuiz = "oral-script";
       }
       this.totalNumberOfQuestions = this.quiz.length;
+      this.easyModeQuiz = this.quiz;
       this.quiz = this.randomizeQuestions(this.quiz);
     },
     updateUserAnswerArray(answer) {

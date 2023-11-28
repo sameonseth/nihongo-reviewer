@@ -16,10 +16,11 @@
       <div
         class="single-item"
         v-for="(quizItem, loopIndex) in quiz"
-        :key="quizItem.question"
+        :key="quizItem.answer"
         v-show="numberOfAnsweredQuestions === loopIndex"
       >
-        <div class="question">{{ quizItem.question }}</div>
+        <div class="question" v-if="isHardMode === 0">{{ quizItem.question }}</div>
+        <div class="question" v-else-if="isHardMode === 1">{{ quizItem.kanji_question }}</div>
         <input
           v-if="typeOfQuiz !== 'oral-script'"
           class="answer-input"
@@ -47,7 +48,7 @@ export default {
       hiraganaCorrectAnswer: ""
     };
   },
-  props: ["numberOfAnsweredQuestions", "quiz", "totalNumberOfQuestions", "typeOfQuiz"],
+  props: ["isHardMode", "numberOfAnsweredQuestions", "quiz", "totalNumberOfQuestions", "typeOfQuiz"],
   emits: ["updateCounterVariables", "updateUserAnswerArray", "updateUserEnglishAnswerArray"],
   methods: {
     evaluateBothAnswers(){
