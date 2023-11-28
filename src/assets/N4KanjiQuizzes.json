@@ -88,9 +88,7 @@
         { "question": "映画館", "answer": "えいがかん", "english_answer": "movie theater" },
         { "question": "計画", "answer": "けいかく", "english_answer": "plan" },
         { "question": "画家", "answer": "がか", "english_answer": "painter" },
-        { "question": "日本画", "answer": "にほんが", "english_answer": "Japanese painting" }
-    ],
-    "NextKanjiQuiz": [
+        { "question": "日本画", "answer": "にほんが", "english_answer": "Japanese painting" },
         { "question": "音", "answer": "おと", "english_answer": "sound" },
         { "question": "発音", "answer": "はつおん", "english_answer": "pronunciation" },
         { "question": "高音", "answer": "こうおん", "english_answer": "high note" },
@@ -111,7 +109,7 @@
         { "question": "世の中", "answer": "よのなか", "english_answer": "world, society" },
         { "question": "２１世紀", "answer": "２１せいき", "english_answer": "21st century" }
     ],
-    "Next" : [
+    "NextKanjiQuiz": [
         { "question": "世界", "answer": "せかい", "english_answer": "world" },
         { "question": "政界", "answer": "せいかい", "english_answer": "political world" },
         { "question": "仕事", "answer": "しごと", "english_answer": "job" },
@@ -122,6 +120,20 @@
         { "question": "事", "answer": "こと", "english_answer": "matter" },
         { "question": "銀行", "answer": "ぎんこう", "english_answer": "bank" },
         { "question": "銀", "answer": "ぎん", "english_answer": "silver" },
-        { "question": "銀座", "answer": "ぎんざ", "english_answer": "Ginza  164+ (N4 Lesson 6)" }
+        { "question": "銀座", "answer": "ぎんざ", "english_answer": "Ginza (place)" },
+        { "question": "会社員", "answer": "かいしゃいん", "english_answer": "employee of a company" },
+        { "question": "銀行員", "answer": "ぎんこういん", "english_answer": "bank clerk" },
+        { "question": "店員", "answer": "てんいん", "english_answer": "clerk" },
+        { "question": "会員", "answer": "かいいん", "english_answer": "membership" },
+        { "question": "医者", "answer": "いしゃ", "english_answer": "doctor" },
+        { "question": "医学", "answer": "いがく", "english_answer": "medical science" },
+        { "question": "医院", "answer": "いいん", "english_answer": "doctor's office" },
+        { "question": "者", "answer": "もの", "english_answer": "person" },
+        { "question": "歯医者", "answer": "はいしゃ", "english_answer": "dentist" },
+        { "question": "学者", "answer": "がくしゃ", "english_answer": "scholar" },
+        { "question": "作者", "answer": "さくしゃ", "english_answer": "author" }
+    ],
+    "Next" : [
+        
     ]
 }

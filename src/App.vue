@@ -77,6 +77,7 @@
 
 <script>
 import N4KanjiQuizzes from "./assets/N4KanjiQuizzes.json";
+import N4VocabularyQuizzes from "./assets/N4VocabularyQuizzes.json";
 import N5VocabularyQuizzes from "./assets/N5VocabularyQuizzes.json";
 import Oral2Questions from "./assets/Oral2Questions.json";
 import Answers from "./components/Answers.vue";
