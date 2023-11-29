@@ -310,6 +310,14 @@ export default {
         this.quiz = N5VocabularyQuizzes.N5L25VQuiz;
         this.typeOfQuiz = "vocabulary";
       }
+      else if (selectedQuiz==="N4L26V") {
+        this.quiz = N4VocabularyQuizzes.N4L26VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N4L27V") {
+        this.quiz = N4VocabularyQuizzes.N4L27VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
       else if (selectedQuiz==="N4L3KQuiz") {
         this.quiz = N4KanjiQuizzes.N4L3KQuiz;
         this.typeOfQuiz = "kanji";
