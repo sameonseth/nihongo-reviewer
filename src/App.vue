@@ -97,6 +97,7 @@
 <script>
 import N4KanjiQuizzes from "./assets/N4KanjiQuizzes.json";
 import N4VocabularyQuizzes from "./assets/N4VocabularyQuizzes.json";
+import N5KanjiQuizzes from "./assets/N5KanjiQuizzes.json";
 import N5VocabularyQuizzes from "./assets/N5VocabularyQuizzes.json";
 import Oral2Questions from "./assets/Oral2Questions.json";
 import Answers from "./components/Answers.vue";
@@ -317,6 +318,14 @@ export default {
       else if (selectedQuiz==="N4L27V") {
         this.quiz = N4VocabularyQuizzes.N4L27VQuiz;
         this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N5L1KQuiz") {
+        this.quiz = N5KanjiQuizzes.N5L1KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="N5L2KQuiz") {
+        this.quiz = N5KanjiQuizzes.N5L2KQuiz;
+        this.typeOfQuiz = "kanji";
       }
       else if (selectedQuiz==="N4L3KQuiz") {
         this.quiz = N4KanjiQuizzes.N4L3KQuiz;
