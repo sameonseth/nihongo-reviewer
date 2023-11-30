@@ -37,7 +37,7 @@
         { "question": "bottle", "kanji_question": "瓶", "answer": "びん" },
         { "question": "can", "kanji_question": "缶", "answer": "かん" },
         { "question": "gas", "kanji_question": "", "answer": "ガス" },
-        { "question": "~ company", "kanji_question": "～会社", "answer": "～かいしゃ" },
+        { "question": "~ company", "kanji_question": "～会社", "answer": "～がいしゃ" },
         { "question": "space, universe", "kanji_question": "宇宙", "answer": "うちゅう" },
         { "question": "Mr. ~/Ms. ~ (respectful equivalent of ～さん)", "kanji_question": "～様", "answer": "～さま" },
         { "question": "spaceship", "kanji_question": "宇宙船", "answer": "うちゅうせん" },
