@@ -327,6 +327,14 @@ export default {
         this.quiz = N5KanjiQuizzes.N5L2KQuiz;
         this.typeOfQuiz = "kanji";
       }
+      else if (selectedQuiz==="N5L3KQuiz") {
+        this.quiz = N5KanjiQuizzes.N5L3KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="N5L4KQuiz") {
+        this.quiz = N5KanjiQuizzes.N5L4KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
       else if (selectedQuiz==="N4L3KQuiz") {
         this.quiz = N4KanjiQuizzes.N4L3KQuiz;
         this.typeOfQuiz = "kanji";
