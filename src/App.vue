@@ -319,6 +319,18 @@ export default {
         this.quiz = N4VocabularyQuizzes.N4L27VQuiz;
         this.typeOfQuiz = "vocabulary";
       }
+      else if (selectedQuiz==="N4L28V") {
+        this.quiz = N4VocabularyQuizzes.N4L28VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N4L29V") {
+        this.quiz = N4VocabularyQuizzes.N4L29VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
+      else if (selectedQuiz==="N4L30V") {
+        this.quiz = N4VocabularyQuizzes.N4L30VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
       else if (selectedQuiz==="N5L1KQuiz") {
         this.quiz = N5KanjiQuizzes.N5L1KQuiz;
         this.typeOfQuiz = "kanji";
@@ -343,8 +355,20 @@ export default {
         this.quiz = N4KanjiQuizzes.N4L4KQuiz;
         this.typeOfQuiz = "kanji";
       }
+      else if (selectedQuiz==="N4L5KQuiz") {
+        this.quiz = N4KanjiQuizzes.N4L5KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
       else if (selectedQuiz==="NextKanjiQuiz") {
         this.quiz = N4KanjiQuizzes.NextKanjiQuiz;
+        this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="WednesdayKanjiQuiz") {
+        this.quiz = N4KanjiQuizzes.WednesdayKanjiQuiz;
+        this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="ThursdayKanjiQuiz") {
+        this.quiz = N4KanjiQuizzes.ThursdayKanjiQuiz;
         this.typeOfQuiz = "kanji";
       }
       else if (selectedQuiz==="Oral2Questions") {

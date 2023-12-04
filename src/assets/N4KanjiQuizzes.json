@@ -107,11 +107,11 @@
         { "question": "旅", "answer": "たび", "english_answer": "trip" },
         { "question": "世話をする", "answer": "せわをする", "english_answer": "to take care of" },
         { "question": "世の中", "answer": "よのなか", "english_answer": "world, society" },
-        { "question": "２１世紀", "answer": "２１せいき", "english_answer": "21st century" }
-    ],
-    "NextKanjiQuiz": [
+        { "question": "２１世紀", "answer": "２１せいき", "english_answer": "21st century" },
         { "question": "世界", "answer": "せかい", "english_answer": "world" },
-        { "question": "政界", "answer": "せいかい", "english_answer": "political world" },
+        { "question": "政界", "answer": "せいかい", "english_answer": "political world" }
+    ],
+    "N4L6KQuiz" : [
         { "question": "仕事", "answer": "しごと", "english_answer": "job" },
         { "question": "仕方がない", "answer": "しかたがない", "english_answer": "there is no choice" },
         { "question": "火事", "answer": "かじ", "english_answer": "fire" },
@@ -133,7 +133,66 @@
         { "question": "学者", "answer": "がくしゃ", "english_answer": "scholar" },
         { "question": "作者", "answer": "さくしゃ", "english_answer": "author" }
     ],
-    "Next" : [
-        
+    "NextKanjiQuiz": [
+        { "question": "働く", "answer": "はたらく", "english_answer": "to work" },
+        { "question": "労働者", "answer": "ろうどうしゃ", "english_answer": "laborer, worker" },
+        { "question": "本屋", "answer": "ほんや", "english_answer": "bookstore" },
+        { "question": "屋上", "answer": "おくじょう", "english_answer": "roof, housetop" },
+        { "question": "八百屋", "answer": "やおや", "english_answer": "grocery" },
+        { "question": "部屋", "answer": "へや", "english_answer": "room" },
+        { "question": "産む", "answer": "うむ", "english_answer": "to give birth" },
+        { "question": "生産する", "answer": "せいさんする", "english_answer": "to produce" },
+        { "question": "財産", "answer": "ざいさん", "english_answer": "fortune" },
+        { "question": "産業", "answer": "さんぎょう", "english_answer": "industry" },
+        { "question": "工業", "answer": "こうぎょう", "english_answer": "manufacture" },
+        { "question": "授業", "answer": "じゅぎょう", "english_answer": "class, lesson" },
+        { "question": "本日休業", "answer": "ほんじつきゅうぎょう", "english_answer": "closed today" },
+        { "question": "林", "answer": "はやし", "english_answer": "wood, grove" },
+        { "question": "小林さん", "answer": "こばやしさん", "english_answer": "Mr. or Ms. Kobayashi" },
+        { "question": "林道", "answer": "りんどう", "english_answer": "forest road" },
+        { "question": "森", "answer": "もり", "english_answer": "forest" },
+        { "question": "森さん", "answer": "もりさん", "english_answer": "Mr. or Ms. Mori" },
+        { "question": "森林", "answer": "しんりん", "english_answer": "forest" }
+    ],
+    "WednesdayKanjiQuiz" : [
+        { "question": "地図", "answer": "ちず", "english_answer": "map" },
+        { "question": "地下鉄", "answer": "ちかてつ", "english_answer": "subway" },
+        { "question": "土地", "answer": "とち", "english_answer": "land" },
+        { "question": "地震", "answer": "じしん", "english_answer": "earthquake" },
+        { "question": "池", "answer": "いけ", "english_answer": "pond" },
+        { "question": "電池", "answer": "でんち", "english_answer": "battery" },
+        { "question": "海", "answer": "うみ", "english_answer": "the sea, the ocean" },
+        { "question": "海外", "answer": "かいがい", "english_answer": "overseas" },
+        { "question": "北海道", "answer": "ほっかいどう", "english_answer": "Hokkaido" },
+        { "question": "西洋", "answer": "せいよう", "english_answer": "the West" },
+        { "question": "東洋", "answer": "とうよう", "english_answer": "the East" },
+        { "question": "洋服", "answer": "ようふく", "english_answer": "clothes" },
+        { "question": "大西洋", "answer": "たいせいよう", "english_answer": "the Atlantic (Ocean)" },
+        { "question": "雪", "answer": "ゆき", "english_answer": "snow" },
+        { "question": "大雪", "answer": "おおゆき", "english_answer": "heavy snow" },
+        { "question": "新雪", "answer": "しんせつ", "english_answer": "fresh snow" },
+        { "question": "光", "answer": "ひかり", "english_answer": "light" },
+        { "question": "光る", "answer": "ひかる", "english_answer": "to shine" },
+        { "question": "日光", "answer": "にっこう", "english_answer": "sunlight" },
+        { "question": "観光", "answer": "かんこう", "english_answer": "sightseeing" }
+    ],
+    "ThursdayKanjiQuiz" : [
+        { "question": "台", "answer": "だい", "english_answer": "table" },
+        { "question": "台所", "answer": "だいどころ", "english_answer": "kitchen" },
+        { "question": "～台", "answer": "～だい", "english_answer": "counter for machines" },
+        { "question": "土台", "answer": "どだい", "english_answer": "foundation" },
+        { "question": "風", "answer": "かぜ", "english_answer": "wind" },
+        { "question": "台風", "answer": "たいふう", "english_answer": "typhoon" },
+        { "question": "洋風", "answer": "ようふう", "english_answer": "western style" },
+        { "question": "風景", "answer": "ふうけい", "english_answer": "scenery" },
+        { "question": "四季", "answer": "しき", "english_answer": "four seasons" },
+        { "question": "季節", "answer": "きせつ", "english_answer": "season" },
+        { "question": "節分", "answer": "せつぶん", "english_answer": "the traditional end of winter" },
+        { "question": "春", "answer": "はる", "english_answer": "spring" },
+        { "question": "青春", "answer": "せいしゅん", "english_answer": "youth" },
+        { "question": "夏", "answer": "なつ", "english_answer": "summer" },
+        { "question": "夏休み", "answer": "なつやすみ", "english_answer": "summer holidays" },
+        { "question": "夏まつり", "answer": "なつまつり", "english_answer": "summer festival" },
+        { "question": "夏服", "answer": "なつふく", "english_answer": "summer clothes" }
     ]
 }
