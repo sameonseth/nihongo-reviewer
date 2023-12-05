@@ -347,6 +347,18 @@ export default {
         this.quiz = N5KanjiQuizzes.N5L4KQuiz;
         this.typeOfQuiz = "kanji";
       }
+      else if (selectedQuiz==="N5L5KQuiz") {
+        this.quiz = N5KanjiQuizzes.N5L5KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="N5L6KQuiz") {
+        this.quiz = N5KanjiQuizzes.N5L6KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="N5L7KQuiz") {
+        this.quiz = N5KanjiQuizzes.N5L7KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
       else if (selectedQuiz==="N4L3KQuiz") {
         this.quiz = N4KanjiQuizzes.N4L3KQuiz;
         this.typeOfQuiz = "kanji";
@@ -359,12 +371,12 @@ export default {
         this.quiz = N4KanjiQuizzes.N4L5KQuiz;
         this.typeOfQuiz = "kanji";
       }
-      else if (selectedQuiz==="NextKanjiQuiz") {
-        this.quiz = N4KanjiQuizzes.NextKanjiQuiz;
+      else if (selectedQuiz==="N4L6KQuiz") {
+        this.quiz = N4KanjiQuizzes.N4L6KQuiz;
         this.typeOfQuiz = "kanji";
       }
-      else if (selectedQuiz==="WednesdayKanjiQuiz") {
-        this.quiz = N4KanjiQuizzes.WednesdayKanjiQuiz;
+      else if (selectedQuiz==="NextKanjiQuiz") {
+        this.quiz = N4KanjiQuizzes.NextKanjiQuiz;
         this.typeOfQuiz = "kanji";
       }
       else if (selectedQuiz==="ThursdayKanjiQuiz") {

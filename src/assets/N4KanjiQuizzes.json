@@ -131,9 +131,7 @@
         { "question": "者", "answer": "もの", "english_answer": "person" },
         { "question": "歯医者", "answer": "はいしゃ", "english_answer": "dentist" },
         { "question": "学者", "answer": "がくしゃ", "english_answer": "scholar" },
-        { "question": "作者", "answer": "さくしゃ", "english_answer": "author" }
-    ],
-    "NextKanjiQuiz": [
+        { "question": "作者", "answer": "さくしゃ", "english_answer": "author" },
         { "question": "働く", "answer": "はたらく", "english_answer": "to work" },
         { "question": "労働者", "answer": "ろうどうしゃ", "english_answer": "laborer, worker" },
         { "question": "本屋", "answer": "ほんや", "english_answer": "bookstore" },
@@ -146,7 +144,9 @@
         { "question": "産業", "answer": "さんぎょう", "english_answer": "industry" },
         { "question": "工業", "answer": "こうぎょう", "english_answer": "manufacture" },
         { "question": "授業", "answer": "じゅぎょう", "english_answer": "class, lesson" },
-        { "question": "本日休業", "answer": "ほんじつきゅうぎょう", "english_answer": "closed today" },
+        { "question": "本日休業", "answer": "ほんじつきゅうぎょう", "english_answer": "closed today" }
+    ],
+    "N4L7KQuiz": [
         { "question": "林", "answer": "はやし", "english_answer": "wood, grove" },
         { "question": "小林さん", "answer": "こばやしさん", "english_answer": "Mr. or Ms. Kobayashi" },
         { "question": "林道", "answer": "りんどう", "english_answer": "forest road" },
@@ -154,7 +154,7 @@
         { "question": "森さん", "answer": "もりさん", "english_answer": "Mr. or Ms. Mori" },
         { "question": "森林", "answer": "しんりん", "english_answer": "forest" }
     ],
-    "WednesdayKanjiQuiz" : [
+    "NextKanjiQuiz" : [
         { "question": "地図", "answer": "ちず", "english_answer": "map" },
         { "question": "地下鉄", "answer": "ちかてつ", "english_answer": "subway" },
         { "question": "土地", "answer": "とち", "english_answer": "land" },

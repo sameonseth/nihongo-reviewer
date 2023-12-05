@@ -253,6 +253,27 @@
       <button
         type="button"
         class="kanji-option"
+        @click.prevent="setQuiz('N5L5KQuiz')"
+      >
+        N5 L5 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('N5L6KQuiz')"
+      >
+        N5 L6 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('N5L7KQuiz')"
+      >
+        N5 L7 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
         @click.prevent="setQuiz('N4L3KQuiz')"
       >
         N4 L3 Kanji
@@ -274,16 +295,16 @@
       <button
         type="button"
         class="kanji-option"
-        @click.prevent="setQuiz('NextKanjiQuiz')"
+        @click.prevent="setQuiz('N4L6KQuiz')"
       >
-        Next Kanji Quiz
+        N4 L6 Kanji
       </button>
       <button
         type="button"
         class="kanji-option"
-        @click.prevent="setQuiz('WednesdayKanjiQuiz')"
+        @click.prevent="setQuiz('NextKanjiQuiz')"
       >
-        Wednesday Kanji Quiz
+        Next Kanji Quiz
       </button>
       <button
         type="button"
