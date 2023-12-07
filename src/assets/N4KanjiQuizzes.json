@@ -152,9 +152,7 @@
         { "question": "林道", "answer": "りんどう", "english_answer": "forest road" },
         { "question": "森", "answer": "もり", "english_answer": "forest" },
         { "question": "森さん", "answer": "もりさん", "english_answer": "Mr. or Ms. Mori" },
-        { "question": "森林", "answer": "しんりん", "english_answer": "forest" }
-    ],
-    "NextKanjiQuiz" : [
+        { "question": "森林", "answer": "しんりん", "english_answer": "forest" },
         { "question": "地図", "answer": "ちず", "english_answer": "map" },
         { "question": "地下鉄", "answer": "ちかてつ", "english_answer": "subway" },
         { "question": "土地", "answer": "とち", "english_answer": "land" },
@@ -174,9 +172,7 @@
         { "question": "光", "answer": "ひかり", "english_answer": "light" },
         { "question": "光る", "answer": "ひかる", "english_answer": "to shine" },
         { "question": "日光", "answer": "にっこう", "english_answer": "sunlight" },
-        { "question": "観光", "answer": "かんこう", "english_answer": "sightseeing" }
-    ],
-    "ThursdayKanjiQuiz" : [
+        { "question": "観光", "answer": "かんこう", "english_answer": "sightseeing" },
         { "question": "台", "answer": "だい", "english_answer": "table" },
         { "question": "台所", "answer": "だいどころ", "english_answer": "kitchen" },
         { "question": "～台", "answer": "～だい", "english_answer": "counter for machines" },
@@ -184,7 +180,9 @@
         { "question": "風", "answer": "かぜ", "english_answer": "wind" },
         { "question": "台風", "answer": "たいふう", "english_answer": "typhoon" },
         { "question": "洋風", "answer": "ようふう", "english_answer": "western style" },
-        { "question": "風景", "answer": "ふうけい", "english_answer": "scenery" },
+        { "question": "風景", "answer": "ふうけい", "english_answer": "scenery" }
+    ],
+    "N4L8KQuiz": [
         { "question": "四季", "answer": "しき", "english_answer": "four seasons" },
         { "question": "季節", "answer": "きせつ", "english_answer": "season" },
         { "question": "節分", "answer": "せつぶん", "english_answer": "the traditional end of winter" },

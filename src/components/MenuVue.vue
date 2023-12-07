@@ -302,16 +302,9 @@
       <button
         type="button"
         class="kanji-option"
-        @click.prevent="setQuiz('NextKanjiQuiz')"
+        @click.prevent="setQuiz('N4L7KQuiz')"
       >
-        Next Kanji Quiz
-      </button>
-      <button
-        type="button"
-        class="kanji-option"
-        @click.prevent="setQuiz('ThursdayKanjiQuiz')"
-      >
-        Thursday Kanji Quiz
+        N4 L7 Kanji
       </button>
       <button
         type="button"

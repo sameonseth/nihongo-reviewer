@@ -375,12 +375,8 @@ export default {
         this.quiz = N4KanjiQuizzes.N4L6KQuiz;
         this.typeOfQuiz = "kanji";
       }
-      else if (selectedQuiz==="NextKanjiQuiz") {
-        this.quiz = N4KanjiQuizzes.NextKanjiQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="ThursdayKanjiQuiz") {
-        this.quiz = N4KanjiQuizzes.ThursdayKanjiQuiz;
+      else if (selectedQuiz==="N4L7KQuiz") {
+        this.quiz = N4KanjiQuizzes.N4L7KQuiz;
         this.typeOfQuiz = "kanji";
       }
       else if (selectedQuiz==="Oral2Questions") {
