@@ -224,6 +224,13 @@
       </button>
       <button
         type="button"
+        class="vocabulary-option"
+        @click.prevent="setQuiz('N4L31V')"
+      >
+        N4 L31 Vocabulary
+      </button>
+      <button
+        type="button"
         class="kanji-option"
         @click.prevent="setQuiz('N5L1KQuiz')"
       >
@@ -305,6 +312,13 @@
         @click.prevent="setQuiz('N4L7KQuiz')"
       >
         N4 L7 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('TuesdayKanjiQuiz')"
+      >
+        Tuesday Kanji Quiz
       </button>
       <button
         type="button"

@@ -192,5 +192,23 @@
         { "question": "夏休み", "answer": "なつやすみ", "english_answer": "summer holidays" },
         { "question": "夏まつり", "answer": "なつまつり", "english_answer": "summer festival" },
         { "question": "夏服", "answer": "なつふく", "english_answer": "summer clothes" }
+    ],
+    "TuesdayKanjiQuiz": [
+        { "question": "秋", "answer": "あき", "english_answer": "autumn" },
+        { "question": "秋田県", "answer": "あきたけん", "english_answer": "Akita Prefecture" },
+        { "question": "秋分の日", "answer": "しゅうぶんのひ", "english_answer": "Autumnal Equinox Day" },
+        { "question": "冬", "answer": "ふゆ", "english_answer": "winter" },
+        { "question": "冬休み", "answer": "ふゆやすみ", "english_answer": "winter holidays" },
+        { "question": "春夏秋冬", "answer": "しゅんかしゅうとう", "english_answer": "spring, summer, autumn, winter" },
+        { "question": "暑い", "answer": "あつい", "english_answer": "hot" },
+        { "question": "残暑", "answer": "ざんしょ", "english_answer": "late-summer heat" },
+        { "question": "寒い", "answer": "さむい", "english_answer": "cold" },
+        { "question": "寒波", "answer": "かんぱ", "english_answer": "cold wave" },
+        { "question": "暖かい", "answer": "あたたかい", "english_answer": "warm" },
+        { "question": "暖冬", "answer": "だんとう", "english_answer": "warm winter" },
+        { "question": "暖房", "answer": "だんぼう", "english_answer": "heating" },
+        { "question": "温暖化", "answer": "おんだんか", "english_answer": "warming" },
+        { "question": "涼しい", "answer": "すずしい", "english_answer": "cool" },
+        { "question": "涼風", "answer": "りょうふう", "english_answer": "cool breeze" }
     ]
 }

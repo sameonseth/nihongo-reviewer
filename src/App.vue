@@ -331,6 +331,10 @@ export default {
         this.quiz = N4VocabularyQuizzes.N4L30VQuiz;
         this.typeOfQuiz = "vocabulary";
       }
+      else if (selectedQuiz==="N4L31V") {
+        this.quiz = N4VocabularyQuizzes.N4L31VQuiz;
+        this.typeOfQuiz = "vocabulary";
+      }
       else if (selectedQuiz==="N5L1KQuiz") {
         this.quiz = N5KanjiQuizzes.N5L1KQuiz;
         this.typeOfQuiz = "kanji";
@@ -377,6 +381,10 @@ export default {
       }
       else if (selectedQuiz==="N4L7KQuiz") {
         this.quiz = N4KanjiQuizzes.N4L7KQuiz;
+        this.typeOfQuiz = "kanji";
+      }
+      else if (selectedQuiz==="TuesdayKanjiQuiz") {
+        this.quiz = N4KanjiQuizzes.TuesdayKanjiQuiz;
         this.typeOfQuiz = "kanji";
       }
       else if (selectedQuiz==="Oral2Questions") {
