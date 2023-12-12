@@ -191,9 +191,7 @@
         { "question": "夏", "answer": "なつ", "english_answer": "summer" },
         { "question": "夏休み", "answer": "なつやすみ", "english_answer": "summer holidays" },
         { "question": "夏まつり", "answer": "なつまつり", "english_answer": "summer festival" },
-        { "question": "夏服", "answer": "なつふく", "english_answer": "summer clothes" }
-    ],
-    "TuesdayKanjiQuiz": [
+        { "question": "夏服", "answer": "なつふく", "english_answer": "summer clothes" },
         { "question": "秋", "answer": "あき", "english_answer": "autumn" },
         { "question": "秋田県", "answer": "あきたけん", "english_answer": "Akita Prefecture" },
         { "question": "秋分の日", "answer": "しゅうぶんのひ", "english_answer": "Autumnal Equinox Day" },
@@ -210,5 +208,25 @@
         { "question": "温暖化", "answer": "おんだんか", "english_answer": "warming" },
         { "question": "涼しい", "answer": "すずしい", "english_answer": "cool" },
         { "question": "涼風", "answer": "りょうふう", "english_answer": "cool breeze" }
+    ],
+    "WednesdayKanjiQuiz": [
+        { "question": "体", "answer": "からだ", "english_answer": "body" },
+        { "question": "体力", "answer": "たいりょく", "english_answer": "physical strength" },
+        { "question": "体重", "answer": "たいじゅう", "english_answer": "body weight" },
+        { "question": "頭", "answer": "あたま", "english_answer": "head" },
+        { "question": "頭がいい", "answer": "あたまがいい", "english_answer": "smart" },
+        { "question": "頭痛", "answer": "ずつう", "english_answer": "headache" },
+        { "question": "顔", "answer": "かお", "english_answer": "face" },
+        { "question": "顔色", "answer": "かおいろ", "english_answer": "complexion" },
+        { "question": "首", "answer": "くび", "english_answer": "neck" },
+        { "question": "首都", "answer": "しゅと", "english_answer": "capital" },
+        { "question": "手首", "answer": "てくび", "english_answer": "wrist" },
+        { "question": "首相", "answer": "しゅしょう", "english_answer": "prime minister" },
+        { "question": "心", "answer": "こころ", "english_answer": "heart" },
+        { "question": "安心する", "answer": "あんしんする", "english_answer": "to be relieved" },
+        { "question": "心配する", "answer": "しんぱいする", "english_answer": "to worry" },
+        { "question": "中心", "answer": "ちゅうしん", "english_answer": "center" },
+        { "question": "声", "answer": "こえ", "english_answer": "voice" },
+        { "question": "大声", "answer": "おおごえ", "english_answer": "loud voice" }
     ]
 }
