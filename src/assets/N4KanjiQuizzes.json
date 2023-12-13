@@ -209,7 +209,7 @@
         { "question": "涼しい", "answer": "すずしい", "english_answer": "cool" },
         { "question": "涼風", "answer": "りょうふう", "english_answer": "cool breeze" }
     ],
-    "WednesdayKanjiQuiz": [
+    "N4L9KQuiz": [
         { "question": "体", "answer": "からだ", "english_answer": "body" },
         { "question": "体力", "answer": "たいりょく", "english_answer": "physical strength" },
         { "question": "体重", "answer": "たいじゅう", "english_answer": "body weight" },
@@ -228,5 +228,29 @@
         { "question": "中心", "answer": "ちゅうしん", "english_answer": "center" },
         { "question": "声", "answer": "こえ", "english_answer": "voice" },
         { "question": "大声", "answer": "おおごえ", "english_answer": "loud voice" }
+    ],
+    "ThursdayKanjiQuiz": [
+        { "question": "病気", "answer": "びょうき", "english_answer": "illness" },
+        { "question": "病院", "answer": "びょういん", "english_answer": "hospital" },
+        { "question": "病人", "answer": "びょうにん", "english_answer": "sick person" },
+        { "question": "急病", "answer": "きゅうびょう", "english_answer": "sudden illness" },
+        { "question": "薬", "answer": "くすり", "english_answer": "medicine" },
+        { "question": "目薬", "answer": "めぐすり", "english_answer": "eye lotion" },
+        { "question": "薬品", "answer": "やくひん", "english_answer": "medicine" },
+        { "question": "科学", "answer": "かがく", "english_answer": "science" },
+        { "question": "教科書", "answer": "きょうかしょ", "english_answer": "textbook" },
+        { "question": "外科", "answer": "げか", "english_answer": "surgery" },
+        { "question": "内側", "answer": "うちがわ", "english_answer": "inside" },
+        { "question": "内科", "answer": "ないか", "english_answer": "internal medicine" },
+        { "question": "車内", "answer": "しゃない", "english_answer": "in the car" },
+        { "question": "案内する", "answer": "あんないする", "english_answer": "to guide" },
+        { "question": "朝", "answer": "あさ", "english_answer": "morning" },
+        { "question": "今朝", "answer": "けさ", "english_answer": "this morning" },
+        { "question": "朝日", "answer": "あさひ", "english_answer": "the morning sun" },
+        { "question": "朝食", "answer": "ちょうしょく", "english_answer": "breakfast" },
+        { "question": "昼", "answer": "ひる", "english_answer": "noon" },
+        { "question": "昼休み", "answer": "ひるやすみ", "english_answer": "lunch break" },
+        { "question": "昼ご飯", "answer": "ひるごはん", "english_answer": "lunch" },
+        { "question": "昼食", "answer": "ちゅうしょく", "english_answer": "lunch" }
     ]
 }
