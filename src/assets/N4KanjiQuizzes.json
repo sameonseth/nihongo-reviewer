@@ -229,7 +229,7 @@
         { "question": "声", "answer": "こえ", "english_answer": "voice" },
         { "question": "大声", "answer": "おおごえ", "english_answer": "loud voice" }
     ],
-    "ThursdayKanjiQuiz": [
+    "ThursdayKQuiz": [
         { "question": "病気", "answer": "びょうき", "english_answer": "illness" },
         { "question": "病院", "answer": "びょういん", "english_answer": "hospital" },
         { "question": "病人", "answer": "びょうにん", "english_answer": "sick person" },

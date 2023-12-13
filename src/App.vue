@@ -106,7 +106,7 @@ import N4KanjiQuizzes from "./assets/N4KanjiQuizzes.json";
 import N4VocabularyQuizzes from "./assets/N4VocabularyQuizzes.json";
 import N5KanjiQuizzes from "./assets/N5KanjiQuizzes.json";
 import N5VocabularyQuizzes from "./assets/N5VocabularyQuizzes.json";
-import Oral2Questions from "./assets/Oral2Questions.json";
+import OralQuestions from "./assets/OralQuestions.json";
 import Answers from "./components/Answers.vue";
 import MenuVue from "./components/MenuVue.vue";
 import Questions from "./components/Questions.vue";
@@ -221,196 +221,26 @@ export default {
     },
     setQuiz(selectedQuiz){
       this.isQuizSelected = 1;
-      if (selectedQuiz==="N5L1V") {
-        this.quiz = N5VocabularyQuizzes.N5L1VQuiz;
+      if(selectedQuiz.search("VQuiz") !== -1){
+        if(selectedQuiz.search("N5") !== -1){
+          this.quiz = N5VocabularyQuizzes[selectedQuiz];
+        }
+        else if(selectedQuiz.search("N4") !== -1){
+          this.quiz = N4VocabularyQuizzes[selectedQuiz];
+        }
         this.typeOfQuiz = "vocabulary";
       }
-      else if (selectedQuiz==="N5L2V") {
-        this.quiz = N5VocabularyQuizzes.N5L2VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L3V") {
-        this.quiz = N5VocabularyQuizzes.N5L3VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L4V") {
-        this.quiz = N5VocabularyQuizzes.N5L4VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L5V") {
-        this.quiz = N5VocabularyQuizzes.N5L5VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L6V") {
-        this.quiz = N5VocabularyQuizzes.N5L6VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L7V") {
-        this.quiz = N5VocabularyQuizzes.N5L7VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L8V") {
-        this.quiz = N5VocabularyQuizzes.N5L8VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L9V") {
-        this.quiz = N5VocabularyQuizzes.N5L9VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L10V") {
-        this.quiz = N5VocabularyQuizzes.N5L10VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L11V") {
-        this.quiz = N5VocabularyQuizzes.N5L11VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L12V") {
-        this.quiz = N5VocabularyQuizzes.N5L12VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L13V") {
-        this.quiz = N5VocabularyQuizzes.N5L13VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L14V") {
-        this.quiz = N5VocabularyQuizzes.N5L14VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L15V") {
-        this.quiz = N5VocabularyQuizzes.N5L15VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L16V") {
-        this.quiz = N5VocabularyQuizzes.N5L16VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L17V") {
-        this.quiz = N5VocabularyQuizzes.N5L17VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L18V") {
-        this.quiz = N5VocabularyQuizzes.N5L18VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L19V") {
-        this.quiz = N5VocabularyQuizzes.N5L19VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L20V") {
-        this.quiz = N5VocabularyQuizzes.N5L20VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L21V") {
-        this.quiz = N5VocabularyQuizzes.N5L21VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L22V") {
-        this.quiz = N5VocabularyQuizzes.N5L22VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L23V") {
-        this.quiz = N5VocabularyQuizzes.N5L23VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L24V") {
-        this.quiz = N5VocabularyQuizzes.N5L24VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L25V") {
-        this.quiz = N5VocabularyQuizzes.N5L25VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N4L26V") {
-        this.quiz = N4VocabularyQuizzes.N4L26VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N4L27V") {
-        this.quiz = N4VocabularyQuizzes.N4L27VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N4L28V") {
-        this.quiz = N4VocabularyQuizzes.N4L28VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N4L29V") {
-        this.quiz = N4VocabularyQuizzes.N4L29VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N4L30V") {
-        this.quiz = N4VocabularyQuizzes.N4L30VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N4L31V") {
-        this.quiz = N4VocabularyQuizzes.N4L31VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N4L32V") {
-        this.quiz = N4VocabularyQuizzes.N4L32VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N4L33V") {
-        this.quiz = N4VocabularyQuizzes.N4L33VQuiz;
-        this.typeOfQuiz = "vocabulary";
-      }
-      else if (selectedQuiz==="N5L1KQuiz") {
-        this.quiz = N5KanjiQuizzes.N5L1KQuiz;
+      else if(selectedQuiz.search("KQuiz") !== -1){
+        if(selectedQuiz.search("N5") !== -1){
+          this.quiz = N5KanjiQuizzes[selectedQuiz];
+        }
+        else{
+          this.quiz = N4KanjiQuizzes[selectedQuiz];
+        }
         this.typeOfQuiz = "kanji";
       }
-      else if (selectedQuiz==="N5L2KQuiz") {
-        this.quiz = N5KanjiQuizzes.N5L2KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N5L3KQuiz") {
-        this.quiz = N5KanjiQuizzes.N5L3KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N5L4KQuiz") {
-        this.quiz = N5KanjiQuizzes.N5L4KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N5L5KQuiz") {
-        this.quiz = N5KanjiQuizzes.N5L5KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N5L6KQuiz") {
-        this.quiz = N5KanjiQuizzes.N5L6KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N5L7KQuiz") {
-        this.quiz = N5KanjiQuizzes.N5L7KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N4L3KQuiz") {
-        this.quiz = N4KanjiQuizzes.N4L3KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N4L4KQuiz") {
-        this.quiz = N4KanjiQuizzes.N4L4KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N4L5KQuiz") {
-        this.quiz = N4KanjiQuizzes.N4L5KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N4L6KQuiz") {
-        this.quiz = N4KanjiQuizzes.N4L6KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N4L7KQuiz") {
-        this.quiz = N4KanjiQuizzes.N4L7KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="N4L8KQuiz") {
-        this.quiz = N4KanjiQuizzes.N4L8KQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="ThursdayKanjiQuiz") {
-        this.quiz = N4KanjiQuizzes.ThursdayKanjiQuiz;
-        this.typeOfQuiz = "kanji";
-      }
-      else if (selectedQuiz==="Oral2Questions") {
-        this.quiz = Oral2Questions.Questions;
+      else if(selectedQuiz.search("OQ") !== -1){
+        this.quiz = OralQuestions[selectedQuiz];
         this.typeOfQuiz = "oral-script";
       }
       this.totalNumberOfQuestions = this.quiz.length;
