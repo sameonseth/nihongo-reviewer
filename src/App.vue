@@ -66,6 +66,13 @@
       >
         Give Up
       </button>
+      <button
+        type="button"
+        class="red-button"
+        @click.prevent="reset"
+      >
+        Go Back To Main Menu
+      </button>
     </div>
     <div v-else-if="numberOfAnsweredQuestions === totalNumberOfQuestions">
       <button
@@ -155,8 +162,11 @@ export default {
       this.isViewingAnswers = 0;
       this.numberOfAnsweredQuestions = 0;
       this.numberOfCorrectAnswers = 0;
+      this.questionsIndexes = [];
+      this.randomNum = 0;
       this.userAnswerArray = [];
       this.userEnglishAnswerArray = [];
+      this.quiz = this.randomizeQuestions(this.quiz);
     },
     setToEasyMode(){
       this.isHardMode = 0;
