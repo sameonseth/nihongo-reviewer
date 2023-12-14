@@ -227,9 +227,7 @@
         { "question": "心配する", "answer": "しんぱいする", "english_answer": "to worry" },
         { "question": "中心", "answer": "ちゅうしん", "english_answer": "center" },
         { "question": "声", "answer": "こえ", "english_answer": "voice" },
-        { "question": "大声", "answer": "おおごえ", "english_answer": "loud voice" }
-    ],
-    "ThursdayKQuiz": [
+        { "question": "大声", "answer": "おおごえ", "english_answer": "loud voice" },
         { "question": "病気", "answer": "びょうき", "english_answer": "illness" },
         { "question": "病院", "answer": "びょういん", "english_answer": "hospital" },
         { "question": "病人", "answer": "びょうにん", "english_answer": "sick person" },
@@ -243,7 +241,9 @@
         { "question": "内側", "answer": "うちがわ", "english_answer": "inside" },
         { "question": "内科", "answer": "ないか", "english_answer": "internal medicine" },
         { "question": "車内", "answer": "しゃない", "english_answer": "in the car" },
-        { "question": "案内する", "answer": "あんないする", "english_answer": "to guide" },
+        { "question": "案内する", "answer": "あんないする", "english_answer": "to guide" }
+    ],
+    "N4L10KQuiz": [
         { "question": "朝", "answer": "あさ", "english_answer": "morning" },
         { "question": "今朝", "answer": "けさ", "english_answer": "this morning" },
         { "question": "朝日", "answer": "あさひ", "english_answer": "the morning sun" },
@@ -252,5 +252,50 @@
         { "question": "昼休み", "answer": "ひるやすみ", "english_answer": "lunch break" },
         { "question": "昼ご飯", "answer": "ひるごはん", "english_answer": "lunch" },
         { "question": "昼食", "answer": "ちゅうしょく", "english_answer": "lunch" }
+    ],
+    "FridayKQuiz": [
+        { "question": "夜", "answer": "よる", "english_answer": "night" },
+        { "question": "今夜", "answer": "こんや", "english_answer": "tonight" },
+        { "question": "夜店", "answer": "よみせ", "english_answer": "night stall" },
+        { "question": "夜食", "answer": "やしょく", "english_answer": "bedtime snack" },
+        { "question": "夕日", "answer": "ゆうひ", "english_answer": "sunset" },
+        { "question": "夕食", "answer": "ゆうしょく", "english_answer": "supper" },
+        { "question": "七夕", "answer": "たなばた", "english_answer": "Star Festival" },
+        { "question": "読み方", "answer": "よみかた", "english_answer": "how to read" },
+        { "question": "夕方", "answer": "ゆうがた", "english_answer": "evening" },
+        { "question": "あの方", "answer": "あのかた", "english_answer": "that person" },
+        { "question": "方法", "answer": "ほうほう", "english_answer": "method" },
+        { "question": "今晩", "answer": "こんばん", "english_answer": "tonight" },
+        { "question": "毎晩", "answer": "まいばん", "english_answer": "every night" },
+        { "question": "晩ご飯", "answer": "ばんごはん", "english_answer": "dinner" },
+        { "question": "時計", "answer": "とけい", "english_answer": "watch, clock" },
+        { "question": "計画", "answer": "けいかく", "english_answer": "plan" },
+        { "question": "計る", "answer": "はかる", "english_answer": "to measure" },
+        { "question": "合計", "answer": "ごうけい", "english_answer": "total" },
+        { "question": "日曜日", "answer": "にちようび", "english_answer": "Sunday" },
+        { "question": "水曜日", "answer": "すいようび", "english_answer": "Wednesday" },
+        { "question": "何曜日", "answer": "なんようび", "english_answer": "what day of the week" }
+    ],
+    "TuesdayKQuiz": [
+        { "question": "以上", "answer": "いじょう", "english_answer": "more than" },
+        { "question": "以下", "answer": "いか", "english_answer": "less than" },
+        { "question": "以外", "answer": "いがい", "english_answer": "except" },
+        { "question": "以前", "answer": "いぜん", "english_answer": "previously" },
+        { "question": "一度", "answer": "いちど", "english_answer": "once" },
+        { "question": "今度", "answer": "こんど", "english_answer": "next time" },
+        { "question": "２５度", "answer": "２５ど", "english_answer": "25 degrees" },
+        { "question": "温度", "answer": "おんど", "english_answer": "temperature" },
+        { "question": "止まる", "answer": "とまる", "english_answer": "to stop" },
+        { "question": "中止する", "answer": "ちゅうしする", "english_answer": "to call off" },
+        { "question": "一時停止", "answer": "いちじていし", "english_answer": "stop sign" },
+        { "question": "歩く", "answer": "あるく", "english_answer": "to walk" },
+        { "question": "散歩する", "answer": "さんぽする", "english_answer": "to take a walk" },
+        { "question": "進歩する", "answer": "しんぽする", "english_answer": "to make progress" },
+        { "question": "横断歩道", "answer": "おうだんほどう", "english_answer": "crosswalk" },
+        { "question": "走る", "answer": "はしる", "english_answer": "to run" },
+        { "question": "力走する", "answer": "りきそうする", "english_answer": "to run as fast as possible" },
+        { "question": "起きる", "answer": "おきる", "english_answer": "to get up" },
+        { "question": "早起き", "answer": "はやおき", "english_answer": "early riser" },
+        { "question": "起業家", "answer": "きぎょうか", "english_answer": "enterpreneur" }
     ]
 }

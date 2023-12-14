@@ -245,6 +245,20 @@
       </button>
       <button
         type="button"
+        class="vocabulary-option"
+        @click.prevent="setQuiz('N4L34VQuiz')"
+      >
+        N4 L34 Vocabulary
+      </button>
+      <button
+        type="button"
+        class="vocabulary-option"
+        @click.prevent="setQuiz('N4L35VQuiz')"
+      >
+        N4 L35 Vocabulary
+      </button>
+      <button
+        type="button"
         class="kanji-option"
         @click.prevent="setQuiz('N5L1KQuiz')"
       >
@@ -337,9 +351,23 @@
       <button
         type="button"
         class="kanji-option"
-        @click.prevent="setQuiz('ThursdayKQuiz')"
+        @click.prevent="setQuiz('N4L9KQuiz')"
       >
-        Thursday Kanji Quiz
+        N4 L9 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('FridayKQuiz')"
+      >
+        Friday Kanji Quiz
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('TuesdayKQuiz')"
+      >
+        Next Tuesday Kanji Quiz
       </button>
       <button
         type="button"
