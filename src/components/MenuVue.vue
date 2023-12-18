@@ -12,13 +12,7 @@
         </div>
     </div>
     <div class="grid-container">
-      <button
-        type="button"
-        class="vocabulary-option"
-        @click.prevent="setQuiz('N5L1VQuiz')"
-      >
-        N5 L1 Vocabulary
-      </button>
+      <QuizButton :buttonClass="buttonClass" @setQuiz="setQuiz"/>
       <button
         type="button"
         class="vocabulary-option"
@@ -358,16 +352,9 @@
       <button
         type="button"
         class="kanji-option"
-        @click.prevent="setQuiz('FridayKQuiz')"
-      >
-        Friday Kanji Quiz
-      </button>
-      <button
-        type="button"
-        class="kanji-option"
         @click.prevent="setQuiz('TuesdayKQuiz')"
       >
-        Next Tuesday Kanji Quiz
+        Tuesday Kanji Quiz
       </button>
       <button
         type="button"
@@ -380,12 +367,21 @@
 </template>
 
 <script>
-    export default {
-        emits: ["setQuiz"],
-        methods: {   
-            setQuiz(selectedQuiz){
-                this.$emit("setQuiz", selectedQuiz);
-            }
+  import QuizButton from "./QuizButton.vue";
+  export default {
+    components: {
+      QuizButton
+    },
+    data() {
+      return {
+        buttonClass: "vocabulary-option"
+      };
+    },
+    emits: ["setQuiz"],
+    methods: {   
+        setQuiz(selectedQuiz){
+            this.$emit("setQuiz", selectedQuiz);
         }
-    };
+    }
+  };
 </script>

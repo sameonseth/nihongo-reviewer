@@ -251,9 +251,7 @@
         { "question": "昼", "answer": "ひる", "english_answer": "noon" },
         { "question": "昼休み", "answer": "ひるやすみ", "english_answer": "lunch break" },
         { "question": "昼ご飯", "answer": "ひるごはん", "english_answer": "lunch" },
-        { "question": "昼食", "answer": "ちゅうしょく", "english_answer": "lunch" }
-    ],
-    "FridayKQuiz": [
+        { "question": "昼食", "answer": "ちゅうしょく", "english_answer": "lunch" },
         { "question": "夜", "answer": "よる", "english_answer": "night" },
         { "question": "今夜", "answer": "こんや", "english_answer": "tonight" },
         { "question": "夜店", "answer": "よみせ", "english_answer": "night stall" },

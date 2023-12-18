@@ -119,7 +119,7 @@ export default {
     MenuVue,
     Questions,
     Result
-},
+  },
   data() {
     return {
       easyModeQuiz: [],
