@@ -519,6 +519,7 @@
         { "question": "well, skillfully", "kanji_question": "上手に", "answer": "じょうずに" },
         { "question": "as much as possible", "kanji_question": "", "answer": "できるだけ" },
         { "question": "almost all (in affirmative sentences), hardly, scarcely (in negative sentences)", "kanji_question": "", "answer": "ほとんど" },
+        { "question": "Chopin, Polish musician (1810~49)", "kanji_question": "", "answer": "ショパン" },
         { "question": "visitor, guest, customer, client (respectful equivalent of おきゃくさん)", "kanji_question": "お客様", "answer": "おきゃくさま" },
         { "question": "special", "kanji_question": "特別", "answer": "とくべつ" },
         { "question": "be doing (respectful equivalent of しています)", "kanji_question": "", "answer": "していらっしゃいます" },
@@ -568,7 +569,12 @@
         { "question": "~th century", "kanji_question": "～世紀", "answer": "～せいき" },
         { "question": "what language", "kanji_question": "何語", "answer": "なにご" },
         { "question": "somebody", "kanji_question": "", "answer": "だれか" },
-        { "question": "Sounds good.", "kanji_question": "", "answer": "よかったですね。" },
+        { "question": "Sounds good.", "kanji_question": "", "answer": "よかったですね。" },   
+        { "question": "Olympic Games", "kanji_question": "", "answer": "オリンピック" },   
+        { "question": "World Cup", "kanji_question": "", "answer": "ワールドガップ" },   
+        { "question": "Portugal", "kanji_question": "", "answer": "ポルトガル" },   
+        { "question": "Saudi Arabia", "kanji_question": "", "answer": "サウジアラビア" },   
+        { "question": "Russia", "kanji_question": "", "answer": "ロシア" },   
         { "question": "Ladies and gentlemen, everybody (respect equivalent of みなさん)", "kanji_question": "皆様", "answer": "みなさま" },
         { "question": "(house) burn down", "kanji_question": "焼けます", "answer": "やけます" },
         { "question": "after that, later", "kanji_question": "その後", "answer": "そのご" },
@@ -589,6 +595,6 @@
         { "question": "after that", "kanji_question": "", "answer": "そのあと" },
         { "question": "with all one's effort", "kanji_question": "一生懸命", "answer": "いっしょうけんめい" },
         { "question": "mouse", "kanji_question": "", "answer": "ねずみ" },
-        { "question": "There is not a single ~.", "kanji_question": "一匹もいません。", "answer": "いっぴきもいません。" }
+        { "question": "There is not a single.", "kanji_question": "一匹もいません。", "answer": "いっぴきもいません。" }
     ]
 }

@@ -272,9 +272,7 @@
         { "question": "合計", "answer": "ごうけい", "english_answer": "total" },
         { "question": "日曜日", "answer": "にちようび", "english_answer": "Sunday" },
         { "question": "水曜日", "answer": "すいようび", "english_answer": "Wednesday" },
-        { "question": "何曜日", "answer": "なんようび", "english_answer": "what day of the week" }
-    ],
-    "TuesdayKQuiz": [
+        { "question": "何曜日", "answer": "なんようび", "english_answer": "what day of the week" },
         { "question": "以上", "answer": "いじょう", "english_answer": "more than" },
         { "question": "以下", "answer": "いか", "english_answer": "less than" },
         { "question": "以外", "answer": "いがい", "english_answer": "except" },
@@ -282,7 +280,9 @@
         { "question": "一度", "answer": "いちど", "english_answer": "once" },
         { "question": "今度", "answer": "こんど", "english_answer": "next time" },
         { "question": "２５度", "answer": "２５ど", "english_answer": "25 degrees" },
-        { "question": "温度", "answer": "おんど", "english_answer": "temperature" },
+        { "question": "温度", "answer": "おんど", "english_answer": "temperature" }
+    ],
+    "N4L11KQuiz": [
         { "question": "止まる", "answer": "とまる", "english_answer": "to stop" },
         { "question": "中止する", "answer": "ちゅうしする", "english_answer": "to call off" },
         { "question": "一時停止", "answer": "いちじていし", "english_answer": "stop sign" },
@@ -295,5 +295,50 @@
         { "question": "起きる", "answer": "おきる", "english_answer": "to get up" },
         { "question": "早起き", "answer": "はやおき", "english_answer": "early riser" },
         { "question": "起業家", "answer": "きぎょうか", "english_answer": "enterpreneur" }
+    ],
+    "ThursdayKQuiz": [
+        { "question": "持つ", "answer": "もつ", "english_answer": "to hold" },
+        { "question": "気持ち", "answer": "きもち", "english_answer": "feeling" },
+        { "question": "持ち物", "answer": "もちもの", "english_answer": "belongings" },
+        { "question": "支持する", "answer": "しじする", "english_answer": "to support" },
+        { "question": "待つ", "answer": "まつ", "english_answer": "to wait" },
+        { "question": "待ち合わせ", "answer": "まちあわせ", "english_answer": "rendezvous" },
+        { "question": "招待する", "answer": "しょうたいする", "english_answer": "to invite" },
+        { "question": "期待する", "answer": "きたいする", "english_answer": "to hope" },
+        { "question": "借りる", "answer": "かりる", "english_answer": "to borrow" },
+        { "question": "借金", "answer": "しゃっきん", "english_answer": "debt" },
+        { "question": "貸す", "answer": "かす", "english_answer": "to lend" },
+        { "question": "貸家", "answer": "かしや", "english_answer": "house for rent" },
+        { "question": "賃貸マンション", "answer": "ちんたいマンション", "english_answer": "rented apartment" },
+        { "question": "始める", "answer": "はじめる", "english_answer": "to begin" },
+        { "question": "開始する", "answer": "かいしする", "english_answer": "to start" },
+        { "question": "始発", "answer": "しはつ", "english_answer": "first train" },
+        { "question": "終わる", "answer": "おわる", "english_answer": "to end" },
+        { "question": "終電", "answer": "しゅうでん", "english_answer": "last train" },
+        { "question": "最終回", "answer": "さいしゅうかい", "english_answer": "final episode" }
+    ],
+    "FridayKQuiz": [
+        { "question": "家", "answer": "いえ", "english_answer": "house" },
+        { "question": "画家", "answer": "がか", "english_answer": "painter" },
+        { "question": "家内", "answer": "かない", "english_answer": "wife" },
+        { "question": "家庭", "answer": "かてい", "english_answer": "family" },
+        { "question": "家族", "answer": "かぞく", "english_answer": "family" },
+        { "question": "民族", "answer": "みんぞく", "english_answer": "race" },
+        { "question": "水族館", "answer": "すいぞくかん", "english_answer": "aquarium" },
+        { "question": "私", "answer": "わたし", "english_answer": "I" },
+        { "question": "私立大学", "answer": "しりつだいがく", "english_answer": "private university" },
+        { "question": "私生活", "answer": "しせいかつ", "english_answer": "private life" },
+        { "question": "自分", "answer": "じぶん", "english_answer": "oneself" },
+        { "question": "自動ドア", "answer": "じどうドア", "english_answer": "automatic door" },
+        { "question": "自由", "answer": "じゆう", "english_answer": "freedom" },
+        { "question": "自然", "answer": "しぜん", "english_answer": "nature" },
+        { "question": "親", "answer": "おや", "english_answer": "parent" },
+        { "question": "母親", "answer": "ははおや", "english_answer": "mother" },
+        { "question": "親切な", "answer": "しんせつな", "english_answer": "kind" },
+        { "question": "親しい", "answer": "したしい", "english_answer": "close" },
+        { "question": "両親", "answer": "りょうしん", "english_answer": "parents" },
+        { "question": "両方", "answer": "りょうほう", "english_answer": "both" },
+        { "question": "両手", "answer": "りょうて", "english_answer": "both hands" },
+        { "question": "両替え", "answer": "りょうがえ", "english_answer": "money exchange" }
     ]
 }
