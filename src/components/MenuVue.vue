@@ -317,6 +317,27 @@
       <button
         type="button"
         class="kanji-option"
+        @click.prevent="setQuiz('N5L8KQuiz')"
+      >
+        N5 L8 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('N4L1KQuiz')"
+      >
+        N4 L1 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('N4L2KQuiz')"
+      >
+        N4 L2 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
         @click.prevent="setQuiz('N4L3KQuiz')"
       >
         N4 L3 Kanji
