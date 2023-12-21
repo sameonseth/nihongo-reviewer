@@ -298,5 +298,11 @@ body {
 }
 
 @media (min-width: 0px) and (max-width: 767.98px) {
-  .short {display: block;}
+  .short {
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
 } 
