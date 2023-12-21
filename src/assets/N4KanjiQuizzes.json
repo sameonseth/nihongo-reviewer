@@ -294,9 +294,7 @@
         { "question": "力走する", "answer": "りきそうする", "english_answer": "to run as fast as possible" },
         { "question": "起きる", "answer": "おきる", "english_answer": "to get up" },
         { "question": "早起き", "answer": "はやおき", "english_answer": "early riser" },
-        { "question": "起業家", "answer": "きぎょうか", "english_answer": "enterpreneur" }
-    ],
-    "ThursdayKQuiz": [
+        { "question": "起業家", "answer": "きぎょうか", "english_answer": "enterpreneur" },
         { "question": "持つ", "answer": "もつ", "english_answer": "to hold" },
         { "question": "気持ち", "answer": "きもち", "english_answer": "feeling" },
         { "question": "持ち物", "answer": "もちもの", "english_answer": "belongings" },

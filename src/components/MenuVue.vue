@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-    <div class="grid-container">
+    <div class="grid-container short">
       <QuizButton :buttonClass="buttonClass" @setQuiz="setQuiz"/>
       <button
         type="button"
@@ -373,9 +373,9 @@
       <button
         type="button"
         class="kanji-option"
-        @click.prevent="setQuiz('ThursdayKQuiz')"
+        @click.prevent="setQuiz('N4L11KQuiz')"
       >
-        Thursday Kanji Quiz
+        N4 L11 Kanji
       </button>
       <button
         type="button"

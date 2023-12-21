@@ -296,3 +296,7 @@ body {
 .grid-container > button {
   text-align: center;
 }
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+  .short {display: block;}
+} 
