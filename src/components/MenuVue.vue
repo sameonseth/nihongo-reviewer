@@ -401,9 +401,23 @@
       <button
         type="button"
         class="kanji-option"
-        @click.prevent="setQuiz('FridayKQuiz')"
+        @click.prevent="setQuiz('N4L12KQuiz')"
       >
-        Friday Kanji Quiz
+        N4 L12 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('WednesdayKQuiz')"
+      >
+        Wednesday Kanji Quiz
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('ThursdayKQuiz')"
+      >
+        Thursday Kanji Quiz
       </button>
       <button
         type="button"

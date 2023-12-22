@@ -355,7 +355,7 @@
         { "question": "終電", "answer": "しゅうでん", "english_answer": "last train" },
         { "question": "最終回", "answer": "さいしゅうかい", "english_answer": "final episode" }
     ],
-    "FridayKQuiz": [
+    "N4L12KQuiz": [
         { "question": "家", "answer": "いえ", "english_answer": "house" },
         { "question": "画家", "answer": "がか", "english_answer": "painter" },
         { "question": "家内", "answer": "かない", "english_answer": "wife" },
@@ -379,7 +379,7 @@
         { "question": "両手", "answer": "りょうて", "english_answer": "both hands" },
         { "question": "両替え", "answer": "りょうがえ", "english_answer": "money exchange" }
     ],
-    "NextWednesdayKQuiz": [
+    "WednesdayKQuiz": [
         { "question": "兄", "answer": "あに", "english_answer": "one's elder brother" },
         { "question": "お兄さん", "answer": "おにいさん", "english_answer": "elder brother" },
         { "question": "弟", "answer": "おとうと", "english_answer": "one's younger brother" },
@@ -397,7 +397,7 @@
         { "question": "前回", "answer": "ぜんかい", "english_answer": "the last time" },
         { "question": "回転ずし", "answer": "かいてんずし", "english_answer": "coveyor-belt sushi" }
     ],
-    "NextThursdayKQuiz": [
+    "ThursdayKQuiz": [
         { "question": "主人", "answer": "しゅじん", "english_answer": "husband" },
         { "question": "主食", "answer": "しゅしょく", "english_answer": "staple food" },
         { "question": "主な", "answer": "おもな", "english_answer": "main" },
