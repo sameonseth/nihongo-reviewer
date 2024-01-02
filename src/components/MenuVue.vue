@@ -267,6 +267,13 @@
       </button>
       <button
         type="button"
+        class="vocabulary-option"
+        @click.prevent="setQuiz('N4L38VQuiz')"
+      >
+        N4 L38 Vocabulary
+      </button>
+      <button
+        type="button"
         class="kanji-option"
         @click.prevent="setQuiz('N5L1KQuiz')"
       >
