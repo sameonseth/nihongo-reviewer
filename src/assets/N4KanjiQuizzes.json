@@ -422,5 +422,28 @@
         { "question": "洋服", "answer": "ようふく", "english_answer": "Western clothing" },
         { "question": "和服", "answer": "わふく", "english_answer": "Japanese clothing" },
         { "question": "制服", "answer": "せいふく", "english_answer": "uniform" }
+    ],
+    "FridayKQuiz": [
+        { "question": "犬", "answer": "いぬ", "english_answer": "dog" },
+        { "question": "子犬", "answer": "こいぬ", "english_answer": "puppy" },
+        { "question": "日本犬", "answer": "にほんけん", "english_answer": "Japanese dog" },
+        { "question": "同じ", "answer": "おなじ", "english_answer": "same" },
+        { "question": "同時に", "answer": "どうじに", "english_answer": "at the same time" },
+        { "question": "同級生", "answer": "どうきゅうせい", "english_answer": "classmate" },
+        { "question": "米", "answer": "こめ", "english_answer": "rice" },
+        { "question": "米国", "answer": "べいこく", "english_answer": "U.S.A" },
+        { "question": "白米", "answer": "はくまい", "english_answer": "polished rice" },
+        { "question": "料金", "answer": "りょうきん", "english_answer": "fee, charge" },
+        { "question": "食料品", "answer": "しょくりょうひん", "english_answer": "foods" },
+        { "question": "資料", "answer": "しりょう", "english_answer": "documents, data" },
+        { "question": "材料", "answer": "ざいりょう", "english_answer": "materials" },
+        { "question": "料理", "answer": "りょうり", "english_answer": "cooking" },
+        { "question": "地理", "answer": "ちり", "english_answer": "geography" },
+        { "question": "無理な", "answer": "むりな", "english_answer": "impossible" },
+        { "question": "理由", "answer": "りゆう", "english_answer": "reason" },
+        { "question": "肉", "answer": "にく", "english_answer": "meat" },
+        { "question": "牛肉", "answer": "ぎゅうにく", "english_answer": "beef" },
+        { "question": "肉屋", "answer": "にくや", "english_answer": "butcher" },
+        { "question": "筋肉", "answer": "きんにく", "english_answer": "muscle" }
     ]
 }
