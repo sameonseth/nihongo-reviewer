@@ -445,5 +445,28 @@
         { "question": "牛肉", "answer": "ぎゅうにく", "english_answer": "beef" },
         { "question": "肉屋", "answer": "にくや", "english_answer": "butcher" },
         { "question": "筋肉", "answer": "きんにく", "english_answer": "muscle" }
+    ],
+    "NextWeekKQuiz": [
+        { "question": "鳥", "answer": "とり", "english_answer": "bird" },
+        { "question": "小鳥", "answer": "ことり", "english_answer": "little bird" },
+        { "question": "白鳥", "answer": "はくちょう", "english_answer": "swan" },
+        { "question": "野原", "answer": "のはら", "english_answer": "fields" },
+        { "question": "野鳥", "answer": "やちょう", "english_answer": "wild bird" },
+        { "question": "分野", "answer": "ぶんや", "english_answer": "genre, area" },
+        { "question": "野菜", "answer": "やさい", "english_answer": "vegetable" },
+        { "question": "菜食", "answer": "さいしょく", "english_answer": "vegetarian diet" },
+        { "question": "青菜", "answer": "あおな", "english_answer": "leafy green vegetable" },
+        { "question": "お茶", "answer": "おちゃ", "english_answer": "tea" },
+        { "question": "茶色", "answer": "ちゃいろ", "english_answer": "brown" },
+        { "question": "喫茶店", "answer": "きっさてん", "english_answer": "coffee shop" },
+        { "question": "紅茶", "answer": "こうちゃ", "english_answer": "black tea" },
+        { "question": "ご飯", "answer": "ごはん", "english_answer": "cooked rice, meal" },
+        { "question": "夕飯", "answer": "ゆうはん", "english_answer": "supper" },
+        { "question": "晩ご飯", "answer": "ばんごはん", "english_answer": "supper" },
+        { "question": "昼飯", "answer": "ひるめし", "english_answer": "lunch" },
+        { "question": "味", "answer": "あじ", "english_answer": "taste" },
+        { "question": "意味", "answer": "いみ", "english_answer": "meaning" },
+        { "question": "趣味", "answer": "しゅみ", "english_answer": "hobby" },
+        { "question": "興味", "answer": "きょうみ", "english_answer": "interest" }
     ]
 }
