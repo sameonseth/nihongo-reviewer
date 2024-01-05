@@ -377,9 +377,7 @@
         { "question": "両親", "answer": "りょうしん", "english_answer": "parents" },
         { "question": "両方", "answer": "りょうほう", "english_answer": "both" },
         { "question": "両手", "answer": "りょうて", "english_answer": "both hands" },
-        { "question": "両替え", "answer": "りょうがえ", "english_answer": "money exchange" }
-    ],
-    "WednesdayKQuiz": [
+        { "question": "両替え", "answer": "りょうがえ", "english_answer": "money exchange" },
         { "question": "兄", "answer": "あに", "english_answer": "one's elder brother" },
         { "question": "お兄さん", "answer": "おにいさん", "english_answer": "elder brother" },
         { "question": "弟", "answer": "おとうと", "english_answer": "one's younger brother" },
@@ -388,16 +386,16 @@
         { "question": "お姉さん", "answer": "おねえさん", "english_answer": "elder sister" },
         { "question": "妹", "answer": "いもうと", "english_answer": "one's younger sister" },
         { "question": "姉妹", "answer": "しまい", "english_answer": "sisters" },
-        { "question": "姉妹都市", "answer": "しまいとし", "english_answer": "sister city" },
+        { "question": "姉妹都市", "answer": "しまいとし", "english_answer": "sister city" }
+    ],
+    "N4L13KQuiz": [
         { "question": "生活", "answer": "せいかつ", "english_answer": "living" },
         { "question": "活動", "answer": "かつどう", "english_answer": "activity" },
         { "question": "活発な", "answer": "かっぱつな", "english_answer": "active" },
         { "question": "回す", "answer": "まわす", "english_answer": "to turn" },
         { "question": "一回", "answer": "いっかい", "english_answer": "once" },
         { "question": "前回", "answer": "ぜんかい", "english_answer": "the last time" },
-        { "question": "回転ずし", "answer": "かいてんずし", "english_answer": "coveyor-belt sushi" }
-    ],
-    "ThursdayKQuiz": [
+        { "question": "回転ずし", "answer": "かいてんずし", "english_answer": "coveyor-belt sushi" },
         { "question": "主人", "answer": "しゅじん", "english_answer": "husband" },
         { "question": "主食", "answer": "しゅしょく", "english_answer": "staple food" },
         { "question": "主な", "answer": "おもな", "english_answer": "main" },
@@ -421,15 +419,15 @@
         { "question": "服", "answer": "ふく", "english_answer": "clothes" },
         { "question": "洋服", "answer": "ようふく", "english_answer": "Western clothing" },
         { "question": "和服", "answer": "わふく", "english_answer": "Japanese clothing" },
-        { "question": "制服", "answer": "せいふく", "english_answer": "uniform" }
-    ],
-    "FridayKQuiz": [
+        { "question": "制服", "answer": "せいふく", "english_answer": "uniform" },
         { "question": "犬", "answer": "いぬ", "english_answer": "dog" },
         { "question": "子犬", "answer": "こいぬ", "english_answer": "puppy" },
         { "question": "日本犬", "answer": "にほんけん", "english_answer": "Japanese dog" },
         { "question": "同じ", "answer": "おなじ", "english_answer": "same" },
         { "question": "同時に", "answer": "どうじに", "english_answer": "at the same time" },
-        { "question": "同級生", "answer": "どうきゅうせい", "english_answer": "classmate" },
+        { "question": "同級生", "answer": "どうきゅうせい", "english_answer": "classmate" }
+    ],
+    "N4L14KQuiz": [
         { "question": "米", "answer": "こめ", "english_answer": "rice" },
         { "question": "米国", "answer": "べいこく", "english_answer": "U.S.A" },
         { "question": "白米", "answer": "はくまい", "english_answer": "polished rice" },
@@ -446,7 +444,7 @@
         { "question": "肉屋", "answer": "にくや", "english_answer": "butcher" },
         { "question": "筋肉", "answer": "きんにく", "english_answer": "muscle" }
     ],
-    "NextWeekKQuiz": [
+    "MondayKQuiz": [
         { "question": "鳥", "answer": "とり", "english_answer": "bird" },
         { "question": "小鳥", "answer": "ことり", "english_answer": "little bird" },
         { "question": "白鳥", "answer": "はくちょう", "english_answer": "swan" },
