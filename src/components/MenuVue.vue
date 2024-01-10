@@ -302,6 +302,20 @@
       </button>
       <button
         type="button"
+        class="vocabulary-option"
+        @click.prevent="setQuiz('N4L43VQuiz')"
+      >
+        N4 L43 Vocabulary
+      </button>
+      <button
+        type="button"
+        class="vocabulary-option"
+        @click.prevent="setQuiz('N4L44VQuiz')"
+      >
+        N4 L44 Vocabulary
+      </button>
+      <button
+        type="button"
         class="kanji-option"
         @click.prevent="setQuiz('N5L1KQuiz')"
       >
@@ -457,6 +471,13 @@
       <button
         type="button"
         class="kanji-option"
+        @click.prevent="setQuiz('N4L15KQuiz')"
+      >
+        N4 L15 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
         @click.prevent="setQuiz('NextKQuiz')"
       >
         Next Kanji Quiz
@@ -467,6 +488,20 @@
         @click.prevent="setQuiz('NextNextKQuiz')"
       >
         Next Next Kanji Quiz
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('NextNextNextKQuiz')"
+      >
+        Next Next Next Kanji Quiz
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('NextNextNextNextKQuiz')"
+      >
+        Next Next Next Next Kanji Quiz
       </button>
       <button
         type="button"
