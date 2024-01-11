@@ -487,9 +487,7 @@
         { "question": "通信", "answer": "つうしん", "english_answer": "correspondence" },
         { "question": "進む", "answer": "すすむ", "english_answer": "to proceed" },
         { "question": "進歩", "answer": "しんぽ", "english_answer": "progress" },
-        { "question": "先進国", "answer": "せんしんこく", "english_answer": "advanced nation" }
-    ],
-    "NextKQuiz": [
+        { "question": "先進国", "answer": "せんしんこく", "english_answer": "advanced nation" },
         { "question": "送る", "answer": "おくる", "english_answer": "to send" },
         { "question": "送金", "answer": "そうきん", "english_answer": "remittance" },
         { "question": "放送", "answer": "ほうそう", "english_answer": "broadcasting" },
@@ -504,7 +502,9 @@
         { "question": "洗濯", "answer": "せんたく", "english_answer": "washing" },
         { "question": "注意する", "answer": "ちゅういする", "english_answer": "to pay attention" },
         { "question": "注文する", "answer": "ちゅうもんする", "english_answer": "to order" },
-        { "question": "注射", "answer": "ちゅうしゃ", "english_answer": "injection" },
+        { "question": "注射", "answer": "ちゅうしゃ", "english_answer": "injection" }
+    ],
+    "N4L16KQuiz": [
         { "question": "場所", "answer": "ばしょ", "english_answer": "place" },
         { "question": "工場", "answer": "こうじょう", "english_answer": "factory" },
         { "question": "広場", "answer": "ひろば", "english_answer": "square" },
@@ -513,7 +513,7 @@
         { "question": "建物", "answer": "たてもの", "english_answer": "building" },
         { "question": "建築", "answer": "けんちく", "english_answer": "construction" }
     ],
-    "NextNextKQuiz": [
+    "NextKQuiz": [
         { "question": "物", "answer": "もの", "english_answer": "thing" },
         { "question": "買い物", "answer": "かいもの", "english_answer": "shopping" },
         { "question": "動物", "answer": "どうぶつ", "english_answer": "animal" },
@@ -536,7 +536,7 @@
         { "question": "工業", "answer": "こうぎょう", "english_answer": "manufacturing" },
         { "question": "工作", "answer": "こうさく", "english_answer": "handicraft" }
     ],
-    "NextNextNextKQuiz": [
+    "NextNextKQuiz": [
         { "question": "図", "answer": "ず", "english_answer": "figure" },
         { "question": "地図", "answer": "ちず", "english_answer": "map" },
         { "question": "図書館", "answer": "としょかん", "english_answer": "library" },
@@ -561,7 +561,7 @@
         { "question": "タクシー乗り場", "answer": "タクシーのりば", "english_answer": "taxi stand" },
         { "question": "乗車券", "answer": "じょうしゃけん", "english_answer": "ticket to ride" }
     ],
-    "NextNextNextNextKQuiz": [
+    "NextNextNextKQuiz": [
         { "question": "降りる", "answer": "おりる", "english_answer": "to get off" },
         { "question": "（雨が）降る", "answer": "ふる", "english_answer": "to rain" },
         { "question": "乗り降り", "answer": "のりおり", "english_answer": "get on and get off" },

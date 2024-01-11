@@ -498,13 +498,6 @@
       </button>
       <button
         type="button"
-        class="kanji-option"
-        @click.prevent="setQuiz('NextNextNextNextKQuiz')"
-      >
-        Next Next Next Next Kanji Quiz
-      </button>
-      <button
-        type="button"
         class="script-option"
         @click.prevent="setQuiz('OQ2')"
       >
