@@ -492,9 +492,37 @@
       <button
         type="button"
         class="kanji-option"
-        @click.prevent="setQuiz('NextNextNextKQuiz')"
+        @click.prevent="setQuiz('FifthToTheLastKQuiz')"
       >
-        Next Next Next Kanji Quiz
+        5th to the Last Kanji Quiz
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('FourthToTheLastKQuiz')"
+      >
+        4th to the Last Kanji Quiz
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('ThirdToTheLastKQuiz')"
+      >
+        3rd to the Last Kanji Quiz
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('SecondToTheLastKQuiz')"
+      >
+        2nd to the Last Kanji Quiz
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('LastKQuiz')"
+      >
+        Last Kanji Quiz
       </button>
       <button
         type="button"
