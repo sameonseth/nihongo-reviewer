@@ -990,7 +990,7 @@
         { "question": "graduate (from a university)", "kanji_question": "卒業します", "answer": "そつぎょうします" },
         { "question": "bake, grill, roast", "kanji_question": "焼きます", "answer": "やきます" },
         { "question": "(bread) be baked", "kanji_question": "焼けます", "answer": "やけます" },
-        { "question": "(meat) be roasted, be grilled", "kanji_question": "", "answer": "" },
+        { "question": "(meat) be roasted, be grilled", "kanji_question": "", "answer": "やけます" },
         { "question": "absence", "kanji_question": "留守", "answer": "るす" },
         { "question": "(package delivered by) home delivery service", "kanji_question": "宅配便", "answer": "たくはいびん" },
         { "question": "cause", "kanji_question": "原因", "answer": "げんいん" },
