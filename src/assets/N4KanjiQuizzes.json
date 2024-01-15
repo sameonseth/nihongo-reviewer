@@ -532,9 +532,7 @@
         { "question": "工場", "answer": "こうじょう", "english_answer": "factory" },
         { "question": "工事", "answer": "こうじ", "english_answer": "construction" },
         { "question": "工業", "answer": "こうぎょう", "english_answer": "manufacturing" },
-        { "question": "工作", "answer": "こうさく", "english_answer": "handicraft" }
-    ],
-    "NextKQuiz": [
+        { "question": "工作", "answer": "こうさく", "english_answer": "handicraft" },
         { "question": "図", "answer": "ず", "english_answer": "figure" },
         { "question": "地図", "answer": "ちず", "english_answer": "map" },
         { "question": "図書館", "answer": "としょかん", "english_answer": "library" },
@@ -542,7 +540,9 @@
         { "question": "信号", "answer": "しんごう", "english_answer": "signal" },
         { "question": "電話番号", "answer": "でんわばんごう", "english_answer": "telephone number" },
         { "question": "３号室", "answer": "さんごうしつ", "english_answer": "room No.3" },
-        { "question": "号令", "answer": "ごうれい", "english_answer": "command" },
+        { "question": "号令", "answer": "ごうれい", "english_answer": "command" }
+    ],
+    "N4L17KQuiz": [
         { "question": "交通", "answer": "こうつう", "english_answer": "traffic" },
         { "question": "交差点", "answer": "こうさてん", "english_answer": "crossing" },
         { "question": "交番", "answer": "こうばん", "english_answer": "police box" },
@@ -559,7 +559,7 @@
         { "question": "タクシー乗り場", "answer": "タクシーのりば", "english_answer": "taxi stand" },
         { "question": "乗車券", "answer": "じょうしゃけん", "english_answer": "ticket to ride" }
     ],
-    "NextNextKQuiz": [
+    "NextKQuiz": [
         { "question": "降りる", "answer": "おりる", "english_answer": "to get off" },
         { "question": "（雨が）降る", "answer": "ふる", "english_answer": "to rain" },
         { "question": "乗り降り", "answer": "のりおり", "english_answer": "get on and get off" },
