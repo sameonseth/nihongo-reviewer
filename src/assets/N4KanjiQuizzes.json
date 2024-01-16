@@ -557,15 +557,12 @@
         { "question": "動物", "answer": "どうぶつ", "english_answer": "animal" },
         { "question": "乗る", "answer": "のる", "english_answer": "to get on" },
         { "question": "タクシー乗り場", "answer": "タクシーのりば", "english_answer": "taxi stand" },
-        { "question": "乗車券", "answer": "じょうしゃけん", "english_answer": "ticket to ride" }
-    ],
-    "NextKQuiz": [
+        { "question": "乗車券", "answer": "じょうしゃけん", "english_answer": "ticket to ride" },
         { "question": "降りる", "answer": "おりる", "english_answer": "to get off" },
         { "question": "（雨が）降る", "answer": "ふる", "english_answer": "to rain" },
         { "question": "乗り降り", "answer": "のりおり", "english_answer": "get on and get off" },
         { "question": "降雨量", "answer": "こううりょう", "english_answer": "rainfall" },
         { "question": "運ぶ", "answer": "はこぶ", "english_answer": "to transport" },
-        { "question": "運動", "answer": "うんどう", "english_answer": "exercise" },
         { "question": "運がいい", "answer": "うんがいい", "english_answer": "lucky" },
         { "question": "運賃", "answer": "うんちん", "english_answer": "fare" },
         { "question": "運転する", "answer": "うんてんする", "english_answer": "to drive" },
@@ -584,7 +581,7 @@
         { "question": "着物", "answer": "きもの", "english_answer": "clothes, kimono" },
         { "question": "着信（メール）", "answer": "ちゃくしん（メール）", "english_answer": "incoming e-mail" }
     ],
-    "FifthToTheLastKQuiz": [
+    "NextKQuiz": [
         { "question": "漢字", "answer": "かんじ", "english_answer": "Chinese character" },
         { "question": "漢方薬", "answer": "かんぽうやく", "english_answer": "Chinese herbal medicine" },
         { "question": "字", "answer": "じ", "english_answer": "letter" },

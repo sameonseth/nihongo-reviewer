@@ -415,6 +415,27 @@
       <button
         type="button"
         class="kanji-option"
+        @click.prevent="setQuiz('N5L9KQuiz')"
+      >
+        N5 L9 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('N5L10KQuiz')"
+      >
+        N5 L10 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz('N5L11KQuiz')"
+      >
+        N5 L11 Kanji
+      </button>
+      <button
+        type="button"
+        class="kanji-option"
         @click.prevent="setQuiz('N4L1KQuiz')"
       >
         N4 L1 Kanji
@@ -537,13 +558,6 @@
         @click.prevent="setQuiz('NextKQuiz')"
       >
         Next Kanji Quiz
-      </button>
-      <button
-        type="button"
-        class="kanji-option"
-        @click.prevent="setQuiz('FifthToTheLastKQuiz')"
-      >
-        5th to the Last Kanji Quiz
       </button>
       <button
         type="button"
