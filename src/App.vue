@@ -2,11 +2,15 @@
   <div class="container">
     <MenuVue 
       v-if="isQuizSelected === 0"
+      :n4KanjiCodeQuizArray="n4KanjiCodeQuizArray"
+      :n4VocabularyCodeQuizArray="n4VocabularyCodeQuizArray"
+      :n5KanjiCodeQuizArray="n5KanjiCodeQuizArray"
+      :n5VocabularyCodeQuizArray="n5VocabularyCodeQuizArray"
       @setQuiz="setQuiz"
     />
     <div v-else-if="isQuizSelected === 1">
       <transition name="fade" mode="out-in">
-        <Questions
+        <QuestionsVue
           v-if="numberOfAnsweredQuestions < totalNumberOfQuestions"
           :isHardMode="isHardMode"
           :numberOfAnsweredQuestions="numberOfAnsweredQuestions"
@@ -109,7 +113,7 @@ import N5VocabularyQuizzes from "./assets/N5VocabularyQuizzes.json";
 import OralQuestions from "./assets/OralQuestions.json";
 import Answers from "./components/Answers.vue";
 import MenuVue from "./components/MenuVue.vue";
-import Questions from "./components/Questions.vue";
+import QuestionsVue from "./components/QuestionsVue.vue";
 import Result from "./components/Result.vue";
 
 export default {
@@ -117,7 +121,7 @@ export default {
   components: {
     Answers,
     MenuVue,
-    Questions,
+    QuestionsVue,
     Result
   },
   data() {
@@ -127,6 +131,10 @@ export default {
       isHardMode: 0,
       isQuizSelected: 0,
       isViewingAnswers: 0,
+      n4KanjiCodeQuizArray: [],
+      n4VocabularyCodeQuizArray: [],
+      n5KanjiCodeQuizArray: [],
+      n5VocabularyCodeQuizArray: [],
       numberOfAnsweredQuestions: 0,
       numberOfCorrectAnswers: 0,
       questionsIndexes: [],
@@ -137,6 +145,12 @@ export default {
       userAnswerArray: [],
       userEnglishAnswerArray: []
     };
+  },
+  created() {
+    this.n4KanjiCodeQuizArray = Object.keys(N4KanjiQuizzes);
+    this.n4VocabularyCodeQuizArray = Object.keys(N4VocabularyQuizzes);
+    this.n5KanjiCodeQuizArray = Object.keys(N5KanjiQuizzes);
+    this.n5VocabularyCodeQuizArray = Object.keys(N5VocabularyQuizzes);
   },
   methods: {
     generateRandomNumbers() {

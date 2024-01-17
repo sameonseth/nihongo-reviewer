@@ -84,10 +84,10 @@ export default {
     }
   },
   watch: {
-    hiraganaAnswer: function (newHiraganaAnswer, oldHiraganaAnswer) {
+    hiraganaAnswer: function (newHiraganaAnswer) {
       if (newHiraganaAnswer && this.englishAnswer !== "") this.evaluateBothAnswers();
     },
-    englishAnswer: function (newEnglishAnswer, oldEnglishAnswer) {
+    englishAnswer: function (newEnglishAnswer) {
       if (newEnglishAnswer && this.hiraganaAnswer !== "") this.evaluateBothAnswers();
     }
   }
