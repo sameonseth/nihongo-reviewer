@@ -581,7 +581,7 @@
         { "question": "着物", "answer": "きもの", "english_answer": "clothes, kimono" },
         { "question": "着信（メール）", "answer": "ちゃくしん（メール）", "english_answer": "incoming e-mail" }
     ],
-    "NextKQuiz": [
+    "N4L18KQuiz": [
         { "question": "漢字", "answer": "かんじ", "english_answer": "Chinese character" },
         { "question": "漢方薬", "answer": "かんぽうやく", "english_answer": "Chinese herbal medicine" },
         { "question": "字", "answer": "じ", "english_answer": "letter" },
@@ -599,9 +599,7 @@
         { "question": "習う", "answer": "ならう", "english_answer": "to learn" },
         { "question": "練習", "answer": "れんしゅう", "english_answer": "practice" },
         { "question": "復習する", "answer": "ふくしゅうする", "english_answer": "to review" },
-        { "question": "習慣", "answer": "しゅうかん", "english_answer": "custom" }
-    ],
-    "FourthToTheLastKQuiz": [
+        { "question": "習慣", "answer": "しゅうかん", "english_answer": "custom" },
         { "question": "英語", "answer": "えいご", "english_answer": "English" },
         { "question": "英国", "answer": "えいこく", "english_answer": "England" },
         { "question": "英雄", "answer": "えいゆう", "english_answer": "hero" },
@@ -610,7 +608,9 @@
         { "question": "参考書", "answer": "さんこうしょ", "english_answer": "reference book" },
         { "question": "研究する", "answer": "けんきゅうする", "english_answer": "do research" },
         { "question": "研究者", "answer": "けんきゅうしゃ", "english_answer": "researcher" },
-        { "question": "研究室", "answer": "けんきゅうしつ", "english_answer": "laboratory" },
+        { "question": "研究室", "answer": "けんきゅうしつ", "english_answer": "laboratory" }
+    ],
+    "N4L19KQuiz": [
         { "question": "問", "answer": "とい", "english_answer": "question" },
         { "question": "問題", "answer": "もんだい", "english_answer": "question" },
         { "question": "質問する", "answer": "しつもんする", "english_answer": "to ask a question" },
@@ -618,7 +618,7 @@
         { "question": "宿題", "answer": "しゅくだい", "english_answer": "homework" },
         { "question": "話題", "answer": "わだい", "english_answer": "topic" }
     ],
-    "ThirdToTheLastKQuiz": [
+    "NextKQuiz": [
         { "question": "試合", "answer": "しあい", "english_answer": "game" },
         { "question": "試験", "answer": "しけん", "english_answer": "examination" },
         { "question": "入試", "answer": "にゅうし", "english_answer": "entrance exam" },
