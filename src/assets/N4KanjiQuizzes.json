@@ -616,9 +616,7 @@
         { "question": "質問する", "answer": "しつもんする", "english_answer": "to ask a question" },
         { "question": "題名", "answer": "だいめい", "english_answer": "title" },
         { "question": "宿題", "answer": "しゅくだい", "english_answer": "homework" },
-        { "question": "話題", "answer": "わだい", "english_answer": "topic" }
-    ],
-    "NextKQuiz": [
+        { "question": "話題", "answer": "わだい", "english_answer": "topic" },
         { "question": "試合", "answer": "しあい", "english_answer": "game" },
         { "question": "試験", "answer": "しけん", "english_answer": "examination" },
         { "question": "入試", "answer": "にゅうし", "english_answer": "entrance exam" },
@@ -637,9 +635,7 @@
         { "question": "用事", "answer": "ようじ", "english_answer": "business" },
         { "question": "利用する", "answer": "りようする", "english_answer": "to use" },
         { "question": "子ども用", "answer": "こどもよう", "english_answer": "for children" },
-        { "question": "使用禁止", "answer": "しようきんし", "english_answer": "Do not use" }
-    ],
-    "SecondToTheLastKQuiz": [
+        { "question": "使用禁止", "answer": "しようきんし", "english_answer": "Do not use" },
         { "question": "紙", "answer": "かみ", "english_answer": "paper" },
         { "question": "手紙", "answer": "てがみ", "english_answer": "letter" },
         { "question": "コピー用紙", "answer": "コピーようし", "english_answer": "photocopying paper" },
@@ -647,7 +643,9 @@
         { "question": "意味", "answer": "いみ", "english_answer": "meaning" },
         { "question": "注意する", "answer": "ちゅういする", "english_answer": "to pay attention" },
         { "question": "用意する", "answer": "よういする", "english_answer": "to prepare" },
-        { "question": "意見", "answer": "いけん", "english_answer": "opinion" },
+        { "question": "意見", "answer": "いけん", "english_answer": "opinion" }
+    ],
+    "N4L20KQuiz": [
         { "question": "引く", "answer": "ひく", "english_answer": "to pull" },
         { "question": "引き出し", "answer": "ひきだし", "english_answer": "withdraw money" },
         { "question": "引力", "answer": "いんりょく", "english_answer": "gravity" },
