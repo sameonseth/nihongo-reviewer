@@ -289,7 +289,7 @@ body {
   display: grid;
   align-content: center;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, 10.424218368530271rem);
+  grid-template-columns: repeat(auto-fill, 8.3393em);
   gap: 1.4em;
   padding: 0;
 }
@@ -302,8 +302,9 @@ body {
   .short {
     display: grid;
     align-content: center;
-    grid-template-columns: auto auto;
-    gap: 10px;
-    padding: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 8.3393em);
+    gap: 1.4em;
+    padding: 0;
   }
 } 
