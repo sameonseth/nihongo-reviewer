@@ -39,24 +39,13 @@
     v-for="(quizCode, index) in n4KanjiCodeQuizArray"
     :key="quizCode"
     >
-        <div v-if="index <= 19">
-            <button
-            type="button"
-            class="kanji-option"
-            @click.prevent="setQuiz(quizCode)"
-            >
-            {{ n4FirstName + (index+1) + kanjiOptionLastName }}
-            </button>
-        </div>
-        <div v-else-if="index === 20">
-            <button
-            type="button"
-            class="kanji-option"
-            @click.prevent="setQuiz('LastKQuiz')"
-            >
-            Last Kanji Quiz
-            </button>
-        </div>
+        <button
+        type="button"
+        class="kanji-option"
+        @click.prevent="setQuiz(quizCode)"
+        >
+        {{ n4FirstName + (index+1) + kanjiOptionLastName }}
+        </button>
     </div>
 </template>
 <script>

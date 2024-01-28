@@ -659,9 +659,7 @@
         { "question": "閉会式", "answer": "へいかいしき", "english_answer": "closing ceremony" },
         { "question": "去年", "answer": "きょねん", "english_answer": "last year" },
         { "question": "過去", "answer": "かこ", "english_answer": "the past" },
-        { "question": "消去", "answer": "しょうきょ", "english_answer": "erasing" }
-    ],
-    "LastKQuiz": [
+        { "question": "消去", "answer": "しょうきょ", "english_answer": "erasing" },
         { "question": "死ぬ", "answer": "しぬ", "english_answer": "to die" },
         { "question": "死者", "answer": "ししゃ", "english_answer": "the dead" },
         { "question": "急死", "answer": "きゅうし", "english_answer": "sudden death" },
